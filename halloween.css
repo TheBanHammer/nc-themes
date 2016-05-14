@@ -77,6 +77,10 @@ border: 1px solid #FF6D00;
 border-bottom: none;
 }
 .video-blocked, .modal { /* the popup thing where u select stuff */
-    background: #040404;
-    border: 1px solid #FF6D00;
+  background: #040404;
+  border: 1px solid #FF6D00;
+}
+.modal-controls { /* control boxes for the slececting thing */
+  border-top: 1px solid #444A59;
+  background: #080808;
 }
