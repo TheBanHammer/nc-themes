@@ -31,3 +31,12 @@
     border: 1px solid #FF6D00;
     background: #222326;
 }
+.btn-snooze:not(.active):hover {
+  background: rgba(255, 150, 0, 0.25);
+}
+.btn-grab:not(.active):hover {
+    background: rgba(255, 150, 0, 0.25);
+}
+.playlists-grab .pl-grab:not(.active):hover {
+    background: rgba(255, 150, 0, 0.25);
+}
