@@ -63,4 +63,9 @@ background:#020202;
 .lib-fdr { /* none slected playlist */
 background:#020202;
 }
-
+.lib-sng:hover { /* hover for a song in playlist */
+    background: rgba(255, 137, 0, 0.29);
+}
+.btn-logo { /* logo thingy */
+    background: #FF6D00;
+}
