@@ -73,8 +73,7 @@ background:#020202;
     background: #050505;
 }
 .btn-grab .playlists-grab { /* popup box for grab */
-border: 1px solid #FF6D00;
-border-bottom: none;
+
 }
 .video-blocked, .modal { /* the popup thing where u select stuff */
   background: #040404;
