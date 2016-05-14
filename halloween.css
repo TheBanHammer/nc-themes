@@ -7,7 +7,7 @@
 }
 .controls {
   background: #020202;
-  border-bottom: 1px solid #FF6D00;
+  border:none !important;
 }
 .playback {
   border: 1px solid #FF6D00;
