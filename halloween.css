@@ -27,22 +27,40 @@
 #msg-form, #pm-msg-form {
     border-top: 1px solid #FF6D00;
 }
-.lib-sng-search, .lib-history-search {
+.lib-sng-search, .lib-history-search { /* song search input box */
     border: 1px solid #FF6D00;
     background: #222326;
 }
-.btn-snooze:not(.active):hover {
+.btn-snooze:not(.active):hover { /* hover for snooze */
   background: rgba(255, 150, 0, 0.25);
 }
-.btn-grab:not(.active):hover {
+.btn-grab:not(.active):hover { /* hover for grab */
     background: rgba(255, 150, 0, 0.25);
 }
-.playlists-grab .pl-grab:not(.active):hover {
+.playlists-grab .pl-grab:not(.active):hover { /* hover for grab playlist item */
     background: rgba(255, 150, 0, 0.25);
 }
-.btn-grab .playlists-grab {
+.btn-grab .playlists-grab { 
   background: #020202;
 }
-.song-progress {
+.song-progress { /* song progress bar */
   background: #FC7C00 !important;
 }
+.lib-fdr-search { /* add a playlist input */
+border: 1px solid #FF6D00;
+}
+.logo-dash { /* extended menu left bar */
+background:#020202;
+}
+.nav.active { /* left menu active item */
+    border-right: 3px solid #FF6D00;
+    background: rgba(255, 137, 0, 0.29);
+}
+.lib-fdr.selected { /* currently selected playlist */
+    border-right: 3px solid #FF6D00;
+    background: rgba(255, 137, 0, 0.29);
+}
+.lib-fdr { /* none slected playlist */
+background:#020202;
+}
+
