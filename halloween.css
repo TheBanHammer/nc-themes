@@ -72,3 +72,7 @@ background:#020202;
 .hist-sng { /* song history item */
     background: #050505;
 }
+.btn-grab .playlists-grab { /* popup box for grab */
+border: 1px solid #FF6D00;
+border-bottom: none;
+}
