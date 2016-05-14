@@ -40,3 +40,9 @@
 .playlists-grab .pl-grab:not(.active):hover {
     background: rgba(255, 150, 0, 0.25);
 }
+.btn-grab .playlists-grab {
+  background: #020202;
+}
+.song-progress {
+  background: #FC7C00 !important;
+}
