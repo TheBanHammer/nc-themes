@@ -84,3 +84,6 @@ border-bottom: none;
   border-top: 1px solid #444A59;
   background: #080808;
 }
+.theme-item.selected { /* go figure HA!*/ /* kk its selected theme design in theme menu */
+    border: 2px solid #Ff6D00;
+}
