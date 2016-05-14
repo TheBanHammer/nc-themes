@@ -1,11 +1,11 @@
-#room-bg {
+#room-bg { /* self explanatory u noob */
   background-image: url("http://i.imgur.com/2XhRtOk.jpg") !important;
 }
 .tray .active {
   border-bottom: 3px solid #FF6D00;
   background: rgba(230, 152, 18, 0.2);
 }
-.controls {
+.controls { /* bottom control bar */
   background: #020202;
   border-top: 1px solid #FF6D00 !important;
 }
@@ -32,13 +32,13 @@
     background: #222326;
 }
 .btn-snooze:not(.active):hover { /* hover for snooze */
-  background: rgba(255, 150, 0, 0.25);
+  background: rgba(255, 137, 0, 0.29);
 }
 .btn-grab:not(.active):hover { /* hover for grab */
-    background: rgba(255, 150, 0, 0.25);
+  background: rgba(255, 137, 0, 0.29);
 }
 .playlists-grab .pl-grab:not(.active):hover { /* hover for grab playlist item */
-    background: rgba(255, 150, 0, 0.25);
+  background: rgba(255, 137, 0, 0.29);
 }
 .btn-grab .playlists-grab { 
   background: #020202;
