@@ -12,7 +12,8 @@
 .playback {
   border: 1px solid #FF6D00;
   background-color: rgba(0, 0, 0, 0.89);
-
+  background-image: url("http://i.imgur.com/GoUUer5.png");
+  background-size: 75%;
 }
 .dash {
   background: #020202;
