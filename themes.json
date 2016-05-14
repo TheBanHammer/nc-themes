@@ -1,6 +1,14 @@
-[{
-  "slug": "halloween-15",
-  "name": "Halloween 2015",
-  "link": "https://rawgit.com/TheBanHammer/nc-themes/master/halloween.css",
-  "imgurl": ""
-}]
+[
+  {
+    "slug": "",
+    "name": "MP Default",
+    "link": "",
+    "imgurl": ""
+  },
+  {
+    "slug": "halloween-15",
+    "name": "Halloween 2015",
+    "link": "https://rawgit.com/TheBanHammer/nc-themes/master/halloween.css",
+    "imgurl": ""
+  }
+]
