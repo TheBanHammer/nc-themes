@@ -1,0 +1,32 @@
+#room-bg {
+  background-image: url("http://i.imgur.com/2XhRtOk.jpg") !important;
+}
+.tray .active {
+  border-bottom: 3px solid #FF6D00;
+  background: rgba(230, 152, 18, 0.2);
+}
+.controls {
+  background: #020202;
+  border: 1px solid #FF6D00;
+}
+.playback {
+  border: 1px solid #FF6D00;
+  background-color: rgba(0, 0, 0, 0.89);
+
+}
+.dash {
+  background: #020202;
+}
+.playback {
+    box-shadow: 0 0 30px 20px rgba(255, 131, 0, 0.15);
+}
+#app-right {
+  border-left: 1px solid #FF6D00;
+}
+#msg-form, #pm-msg-form {
+    border-top: 1px solid #FF6D00;
+}
+.lib-sng-search, .lib-history-search {
+    border: 1px solid #FF6D00;
+    background: #222326;
+}
