@@ -67,7 +67,7 @@ background:#020202;
     background: rgba(255, 137, 0, 0.29);
 }
 .btn-logo { /* logo thingy */
-    background: #FF6D00;
+    background: #0C0C0C;
 }
 .hist-sng { /* song history item */
     background: #050505;
@@ -81,7 +81,7 @@ border-bottom: none;
   border: 1px solid #FF6D00;
 }
 .modal-controls { /* control boxes for the slececting thing */
-  border-top: 1px solid #444A59;
+  border-top: 1px solid #FF6D00;
   background: #080808;
 }
 .theme-item.selected { /* go figure HA!*/ /* kk its selected theme design in theme menu */
