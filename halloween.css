@@ -88,3 +88,9 @@ background:#020202;
 .lib-sng:first-child { /* first song in playlist */
   background: rgba(255, 137, 0, 0.29);
 }
+.user-menu .modal-ctrl:hover { /* user info box hover */
+    background: rgba(255, 137, 0, 0.29);
+}
+.user-menu-content { /* user popup info box */
+background: #0C0C0C;
+}
