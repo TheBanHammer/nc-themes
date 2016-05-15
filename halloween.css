@@ -101,3 +101,6 @@
 .settings .label { /* in settings lables */
   border-bottom: 1px solid #FF6D00;
 }
+.description h1 { /* room desc header */
+  border-bottom: 1px solid #FF6D00;
+}
