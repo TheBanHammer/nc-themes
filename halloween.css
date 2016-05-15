@@ -94,3 +94,6 @@ background:#020202;
 .user-menu-content { /* user popup info box */
 background: #0C0C0C;
 }
+.btn-inner-pm:hover { /* new message hover */
+    background: rgba(255, 137, 0, 0.29);
+}
