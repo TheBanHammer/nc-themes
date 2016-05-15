@@ -15,8 +15,9 @@
   background-image: url("http://i.imgur.com/GoUUer5.png");
   background-size: 60%;
 }
-.dash { 
+.dash { /* top bar */
   background: #020202;
+  border-bottom: 1px solid #FF6D00;
 }
 .playback { /* video box */
     box-shadow: 0 0 30px 20px rgba(255, 131, 0, 0.15);
