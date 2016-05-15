@@ -12,6 +12,12 @@
     "imgurl": ""
   },
   {
+    "slug": "tiki",
+    "name": "Tiki",
+    "link": "https://rawgit.com/bentenz5/NCS/master/tiki.css",
+    "imgurl": ""
+  },
+  {
     "slug": "ncs",
     "name": "NCS by CSxKING",
     "link": "https://rawgit.com/bentenz5/NCS/master/NCSTheme.css",
