@@ -9,16 +9,16 @@
   background: #020202;
   border-top: 1px solid #FF6D00 !important;
 }
-.playback {
+.playback { /* video box */
   border: 1px solid #FF6D00;
   background-color: rgba(0, 0, 0, 0.89);
   background-image: url("http://i.imgur.com/GoUUer5.png");
   background-size: 60%;
 }
-.dash {
+.dash { 
   background: #020202;
 }
-.playback {
+.playback { /* video box */
     box-shadow: 0 0 30px 20px rgba(255, 131, 0, 0.15);
 }
 #app-right {
