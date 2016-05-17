@@ -1,18 +1,18 @@
 
 #room-bg { /* self explanatory u noob */
-  background-image: url("http://i.imgur.com/2XhRtOk.jpg") !important;
+  background-image: url("http://i.imgur.com/Wrs28dm.jpg") !important;
 }
 .tray .active {
   border-bottom: 3px solid #5DC300;
-  background: rgba(230, 152, 18, 0.2);
+  background: rgba(105, 230, 18, 0.2);
 }
 .controls { /* bottom control bar */
   background: #020202;
-  border-top: 1px solid #FF6D00 !important;
+  border-top: 1px solid #5DC300 !important;
 }
 .playback { /* video box */
-  border: 1px solid #FF6D00;
-  background-color: rgba(0, 0, 0, 0.89);
+  border: 1px solid #5DC300;
+  background-color: rgba(0, 0, 0, 0.7);
   background-image: url("http://i.imgur.com/GoUUer5.png");
   background-size: 60%;
 }
