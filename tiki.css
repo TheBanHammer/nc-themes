@@ -18,19 +18,19 @@
 }
 .dash { /* top bar */
   background: url("http://i.imgur.com/KcGcWQN.jpg");
-  border-bottom: 1px solid #FF6D00;
+  border-bottom: 1px solid #5DC300;
 }
 .playback { /* video box */
   box-shadow: 0 0 30px 20px rgba(255, 131, 0, 0.15);
 }
 #app-right {
-  border-left: 1px solid #FF6D00;
+  border-left: 1px solid #5DC300;
 }
 #msg-form, #pm-msg-form {
-  border-top: 1px solid #FF6D00;
+  border-top: 1px solid #5DC300;
 }
 .lib-sng-search, .lib-history-search { /* song search input box */
-  border: 1px solid #FF6D00;
+  border: 1px solid #5DC300;
   background: #222326;
 }
 .btn-snooze:not(.active):hover { /* hover for snooze */
@@ -49,17 +49,17 @@
   background: #FC7C00 !important;
 }
 .lib-fdr-search { /* add a playlist input */
-  border: 1px solid #FF6D00;
+  border: 1px solid #5DC300;
 }
 .logo-dash { /* extended menu left bar */
   background:#020202;
 }
 .nav.active { /* left menu active item */
-  border-right: 3px solid #FF6D00;
+  border-right: 3px solid #5DC300;
   background: rgba(255, 137, 0, 0.29);
 }
 .lib-fdr.selected { /* currently selected playlist */
-  border-right: 3px solid #FF6D00;
+  border-right: 3px solid #5DC300;
   background: rgba(255, 137, 0, 0.29);
 }
 .lib-fdr { /* none slected playlist */
@@ -81,11 +81,11 @@
   background: #040404;
 }
 .modal-controls { /* control boxes for the slececting thing */
-  border-top: 1px solid #FF6D00;
+  border-top: 1px solid #5DC300;
   background: #080808;
 }
 .theme-item.selected { /* go figure HA!*/ /* kk its selected theme design in theme menu */
-  border: 2px solid #FF6D00;
+  border: 2px solid #5DC300;
 }
 .lib-sng:first-child { /* first song in playlist */
   background: rgba(255, 137, 0, 0.29);
@@ -100,9 +100,9 @@
   background: rgba(255, 137, 0, 0.29);
 }
 .settings .label { /* in settings lables */
-  border-bottom: 1px solid #FF6D00;
+  border-bottom: 1px solid #5DC300;
 }
 .description h1 { /* room desc header */
-  border-bottom: 1px solid #FF6D00;
+  border-bottom: 1px solid #5DC300;
 }
 
