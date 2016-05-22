@@ -17,7 +17,7 @@
   background-size: 60%;
 }
 .dash { /* top bar */
-  background: url("http://i.imgur.com/KcGcWQN.jpg");
+  background: #12190F;
   border-bottom: 1px solid #5DC300;
 }
 .playback { /* video box */
