@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "",
+    "name": "MP Default",
+    "link": "",
+    "imgurl": ""
+  },
+  {
+    "slug": "halloween",
+    "name": "Halloween",
+    "link": "https://rawgit.com/TheBanHammer/nc-themes/master/halloween.css",
+    "imgurl": ""
+  },
+  {
+    "slug": "tiki",
+    "name": "Tiki",
+    "link": "https://rawgit.com/TheBanHammer/nc-themes/master/tiki.css",
+    "imgurl": ""
+  },
+  {
+    "slug": "ncs",
+    "name": "NCS by CSxKING",
+    "link": "https://rawgit.com/bentenz5/NCS/master/NCSTheme.css",
+    "imgurl": ""
+  }
+]
