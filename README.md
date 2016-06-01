@@ -1,2 +1,2 @@
 # nc-themes
-* created by PixelBreeze & TheBanHammer
+* Created and maintained by PixelBreeze & TheBanHammer
