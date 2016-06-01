@@ -1,7 +1,7 @@
 {
     "room":                     "NC 331",
     "author":                   "PixelBreeze & TheBanHammer",
-    "css":                      "https://cdn.rawgit.com/TheBanHammer/nc-themes/master/plug-themes/nc331-theme.css",
+    "css":                      "https://cdn.bssecure.net/nc-themes/plug-themes/nc331-theme.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
