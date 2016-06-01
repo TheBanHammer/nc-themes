@@ -1396,49 +1396,6 @@
 
 /* STAFF */
 
-/* greySynapse */
-#chat-messages .id-4107431 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/orMchHz.png'); 
-        background-size:        cover; 
-}
-
-/* donvoo */
-#chat-messages .id-4537120 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/kXLv94f.png'); 
-        background-size:        cover; 
-}
-
-/* Dakotah & Tyler*/
-#chat-messages .id-5858419 .badge-box i.bdg,
-#chat-messages .id-5059733 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/TUpNzNx.png'); 
-        background-size:        cover; 
-}
-
-/* Quilly */
-#chat-messages .id-5739801 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/ORqGbTK.png'); 
-        background-size:        cover; 
-}
-
-/* Vocal */ /*
-#chat-messages .id-6108348 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/jU0JBXE.png'); 
-        background-size:        cover; 
-} */
-
-/* Meow */
-#chat-messages .id-3901318 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/xUwxAln.png'); 
-        background-size:        cover; 
-}
-
 /* PixelBreeze */
 #chat-messages .id-6175571 .badge-box i.bdg
 {
@@ -1460,13 +1417,6 @@
         background-size:        cover; 
 }
 
-/* Tatsuya */
-#chat-messages .id-5326211 .badge-box i.bdg
-{ 
-        background-image:       url('http://i.imgur.com/ZZWyz4z.png'); 
-        background-size:        cover; 
-}
-
 /* Kirby */
 #chat-messages .id-3893149 .badge-box i.bdg
 {
@@ -1474,24 +1424,10 @@
         background-size:        cover;
 }
 
-/* Momiji */
-#chat-messages .id-5419138 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/i8T5K2i.png');
-        background-size:        cover;
-}
-
 /* asiansweg */
 #chat-messages .id-5520544 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/OJZqg2l.png');
-        background-size:        cover;
-}
-
-/* MiniGossip */
-#chat-messages .id-4594269 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/umo7EN1.png');
         background-size:        cover;
 }
 
@@ -1537,20 +1473,6 @@
         background-size:        cover;
 }
 
-/* DJ Despair */
-#chat-messages .id-6206976 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/eFhwPXu.png');
-        background-size:        cover;
-}
-
-/* ECPinoy */
-#chat-messages .id-3816188 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/e1iuvDt.png');
-        background-size:        cover;
-}
-
 /* JennyMagic */
 #chat-messages .id-5009139 .badge-box i.bdg
 {
@@ -1572,41 +1494,6 @@
         background-size:        cover;
 }
 
-/* Snorlax */
-#chat-messages .id-4713374 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/7nfxx6p.png');
-        background-size:        cover;
-}
-
-/* Koyomi */
-#chat-messages .id-5021769 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/gla5B8F.png');
-        background-size:        cover;
-}
-
-/* DJ Dude Alex */
-#chat-messages .id-4058796 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/f6qPk3s.png');
-        background-size:        cover;
-}
-
-/* ROBIN */
-#chat-messages .id-5891472 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/2rrKrVb.png');
-        background-size:        cover;
-}
-
-/* LEMON */
-#chat-messages .id-5356956 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/bxTJAl9.png');
-        background-size:        cover;
-}
-
 /* Natilie */
 #chat-messages .id-5059731 .badge-box i.bdg
 {
@@ -1621,66 +1508,10 @@
         background-size:        cover;
 }
 
-/* 23pies */
-#chat-messages .id-3465196 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/L3WGLBs.png');
-        background-size:        cover;
-}
-
-/* Ivy */
-#chat-messages .id-4762975 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/ReeDvoo.png');
-        background-size:        cover;
-}
-
-/* Daisy */
-#chat-messages .id-5965406 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/C21RViw.png');
-        background-size:        cover;
-}
-
-/* FEK */
-#chat-messages .id-4845374 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/vf6yEqG.jpg');
-        background-size:        cover;
-}
-
 /* Allo */
 #chat-messages .id-4444591 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/opp3TlA.jpg');
-        background-size:        cover;
-}
-
-/* Rin */
-#chat-messages .id-5653326 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/cPT7gVW.png');
-        background-size:        cover;
-}
-
-/* Zephy */
-#chat-messages .id-8121173 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/5oecqkc.gif');
-        background-size:        cover;
-}
-
-/* HaremKing */
-#chat-messages .id-5979000 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/KZCyKYQ.gif');
-        background-size:        cover;
-}
-
-/* WindWalk */
-#chat-messages .id-4881577 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/So6oT7d.png');
         background-size:        cover;
 }
 
@@ -2167,39 +1998,11 @@
         text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
 }
 
-/* Rin */
-[data-cid^="5653326"] .msg .from .un
-{
-        /* Pink */
-        color:                   rgba(255, 92, 175, 1) !important;
-}
-
 /* That Random Guy */
 [data-cid^="4105479"] .msg .from .un
 {
         /* Orange */
         color:                   rgba(236, 126, 51, 1) !important;
-}
-
-/* Kirby */
-[data-cid^="3893149"] .msg .from .un
-{
-        /* Pink */
-        color:                   rgba(230, 122, 227, 1) !important;
-}
-
-/* 4rr0ws */
-[data-cid^="3440313"] .msg .from .un
-{
-        /* Lime Green */
-        color:                   rgba(153, 255, 51, 1) !important;
-}
-
-/* greySynapse */
-[data-cid^="4107431"] .msg .from .un
-{
-        /* Grey */
-        color:                  rgba(187, 184, 203, 1) !important;
 }
 
 /* Dyll / Erio */
@@ -2210,27 +2013,6 @@
 
 /* Non - Staff */
 
-/* Meow */
-[data-cid^="3901318"] .msg .from .un
-{
-        /* Teal */
-        color:                   rgba(54, 179, 215, 1) !important;
-}
-
-/* Kage */
-[data-cid^="3852661"] .msg .from .un
-{
-        /* Sky Blue */
-        color:                   rgba(24, 196, 252, 1) !important;
-}
-
-/* TBH */
-[data-cid^="3620521"] .msg .from .un
-{
-        /* Sky Blue */
-        color: rgb(255, 0, 245) !important; 
-        text-shadow: 0px 0px 10px rgb(35, 200, 208);
-}
 
 /************/
 /*SCROLL BAR*/
