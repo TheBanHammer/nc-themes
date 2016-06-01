@@ -1,0 +1,106 @@
+#room-bg { /* self explanatory u noob */
+  background-image: url("http://i.imgur.com/2XhRtOk.jpg") !important;
+}
+.tray .active {
+  border-bottom: 3px solid #FF6D00;
+  background: rgba(230, 152, 18, 0.2);
+}
+.controls { /* bottom control bar */
+  background: #020202;
+  border-top: 1px solid #FF6D00 !important;
+}
+.playback { /* video box */
+  border: 1px solid #FF6D00;
+  background-color: rgba(0, 0, 0, 0.89);
+  background-image: url("http://i.imgur.com/QYD2ngQ.png");
+  background-size: 60%;
+}
+.dash { /* top bar */
+  background: #020202;
+  border-bottom: 1px solid #FF6D00;
+}
+.playback { /* video box */
+  box-shadow: 0 0 30px 20px rgba(255, 131, 0, 0.15);
+}
+#app-right {
+  border-left: 1px solid #FF6D00;
+}
+#msg-form, #pm-msg-form {
+  border-top: 1px solid #FF6D00;
+}
+.lib-sng-search, .lib-history-search { /* song search input box */
+  border: 1px solid #FF6D00;
+  background: #222326;
+}
+.btn-snooze:not(.active):hover { /* hover for snooze */
+
+}
+.btn-grab:not(.active):hover { /* hover for grab */
+
+}
+.playlists-grab .pl-grab:not(.active):hover { /* hover for grab playlist item */
+
+}
+.btn-grab .playlists-grab { 
+  background: #020202;
+}
+.song-progress { /* song progress bar */
+  background: #FC7C00 !important;
+}
+.lib-fdr-search { /* add a playlist input */
+  border: 1px solid #FF6D00;
+}
+.logo-dash { /* extended menu left bar */
+  background:#020202;
+}
+.nav.active { /* left menu active item */
+  border-right: 3px solid #FF6D00;
+  background: rgba(255, 137, 0, 0.29);
+}
+.lib-fdr.selected { /* currently selected playlist */
+  border-right: 3px solid #FF6D00;
+  background: rgba(255, 137, 0, 0.29);
+}
+.lib-fdr { /* none slected playlist */
+  background: rgba(2, 2, 2, 0.8);
+}
+.lib-sng:hover { /* hover for a song in playlist */
+  background: rgba(255, 137, 0, 0.29);
+}
+.btn-logo { /* logo thingy */
+  background: #0C0C0C;
+}
+.hist-sng { /* song history item */
+  background: #050505;
+}
+.btn-grab .playlists-grab { /* popup box for grab */
+
+}
+.video-blocked, .modal { /* the popup thing where u select stuff */
+  background: #040404;
+}
+.modal-controls { /* control boxes for the slececting thing */
+  border-top: 1px solid #FF6D00;
+  background: #080808;
+}
+.theme-item.selected { /* go figure HA!*/ /* kk its selected theme design in theme menu */
+  border: 2px solid #FF6D00;
+}
+.lib-sng:first-child { /* first song in playlist */
+  background: rgba(255, 137, 0, 0.29);
+}
+.user-menu .modal-ctrl:hover { /* user info box hover */
+  background: rgba(255, 137, 0, 0.29);
+}
+.user-menu-content { /* user popup info box */
+  background: #0C0C0C;
+}
+.btn-inner-pm:hover { /* new message hover */
+  background: rgba(255, 137, 0, 0.29);
+}
+.settings .label { /* in settings lables */
+  border-bottom: 1px solid #FF6D00;
+}
+.description h1 { /* room desc header */
+  border-bottom: 1px solid #FF6D00;
+}
