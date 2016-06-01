@@ -1,1 +1,2273 @@
+/********/
+/*TITLES*/
+/********/
+
+/************/
+/*DIALOG BOX*/
+/************/
+
+/* Quit DJing Dialogue Box */
+#dialog-confirm
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#dialog-body
+{
+        background:             rgba(49, 49, 49, 1) !important;
+}
+
+#dialog-confirm
+{
+        opacity:                0.85;
+}
+
+#dialog-confirm > .dialog-body,
+#dialog-confirm > .dialog-frame
+{
+        opacity:                0.85;
+}
+
+#dialog-confirm .dialog-frame:hover
+{
+        opacity:                0:85;
+}
+
+#dialog-confirm .submit, 
+#dialog-confirm .cancel
+{
+        background:             rgba(0, 0, 0, 1);
+        color:                  rgba(128, 134, 145, 1);
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-confirm .submit:hover
+{
+        color:                  rgba(255, 255, 255, 1);
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(244, 107, 64, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(244, 107, 64, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(244, 107, 64, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(244, 107, 64, 1) !important;  
+}
+
+#dialog-confirm .cancel:hover
+{
+        color:                  rgba(255, 255, 255, 1);
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;  
+}
+
+/* Editing Media Dialog Box [Playlist] */
+#dialog-media-update,
+#dialog-playlist-rename, 
+#dialog-playlist-delete,
+#dialog-playlist-create,
+#dialog-delete
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#dialog-media-update .dialog-body, 
+#dialog-playlist-rename .dialog-body, 
+#dialog-playlist-delete .dialog-body,
+#dialog-playlist-create .dialog-body,
+#dialog-delete .dialog-body
+{
+        background:             rgba(49, 49, 49, 1) !important;
+}
+
+#dialog-media-update,
+#dialog-playlist-rename, 
+#dialog-playlist-delete,
+#dialog-playlist-create,
+#dialog-delete
+{
+        opacity:                .85;
+}
+
+#dialog-media-update > .dialog-body,
+#dialog-media-update > .dialog-frame,
+#dialog-playlist-rename > .dialog-body,
+#dialog-playlist-rename > .dialog-frame,
+#dialog-playlist-delete > .dialog-body,
+#dialog-playlist-delete > .dialog-frame,
+#dialog-playlist-create > .dialog-body,
+#dialog-playlist-create > .dialog-frame,
+#dialog-delete > .dialog-body,
+#dialog-delete > .dialog-frame
+{
+        opacity:                .85;
+}
+
+#dialog-media-update .dialog-frame .button,
+#dialog-playlist-rename .dialog-frame .button,
+#dialog-playlist-delete .dialog-frame .button,
+#dialog-playlist-create .dialog-frame .button,
+#dialog-delete .dialog-frame .button
+{
+        background:             rgba(0, 0, 0, 1) !important;
+        color:                  rgba(128, 134, 145, 1) !important;
+}
+
+#dialog-media-update .dialog-frame .cancel,
+#dialog-media-update .dialog-frame .submit,
+#dialog-playlist-rename .dialog-frame .cancel,
+#dialog-playlist-rename .dialog-frame .submit,
+#dialog-playlist-delete .dialog-frame .cancel,
+#dialog-playlist-delete .dialog-frame .submit,
+#dialog-playlist-create .dialog-frame .cancel,
+#dialog-playlist-create .dialog-frame .submit,
+#dialog-delete .dialog-frame .cancel,
+#dialog-delete .dialog-frame .submit
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-media-update .dialog-frame .cancel:hover,
+#dialog-playlist-rename .dialog-frame .cancel:hover,
+#dialog-playlist-delete .dialog-frame .cancel:hover,
+#dialog-playlist-create .dialog-frame .cancel:hover,
+#dialog-delete .dialog-frame .cancel:hover
+{
+        color:                  rgba(255, 255, 255, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+}
+
+#dialog-media-update .dialog-frame .submit:hover,
+#dialog-playlist-rename .dialog-frame .submit:hover,
+#dialog-playlist-delete .dialog-frame .submit:hover,
+#dialog-playlist-create .dialog-frame .submit:hover,
+#dialog-delete .dialog-frame .submit:hover
+{
+        color:                  rgba(255, 255, 255, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+/* Editing Media Swap Button Hover */
+#dialog-media-update .swap
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-media-update .swap:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+/* User-Rollover User Role [Promotion], User Ban, & User Mute, & Gifting Dialog */
+#dialog-user-role .dialog-frame,
+#dialog-ban-user .dialog-frame,
+#dialog-mute-user .dialog-frame,
+#dialog-gift-send .dialog-frame
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#dialog-user-role,
+#dialog-ban-user,
+#dialog-mute-user,
+#dialog-gift-send
+{
+        opacity: 1;
+}
+
+#dialog-user-role .role-menu
+{
+        background:             rgba(128, 134, 145, 0) !important;
+}
+
+#dialog-user-role .role-menu .menu li:nth-child(n+1),
+#dialog-ban-user .dialog-body .duration .toggle,
+#dialog-ban-user .dialog-body .duration .toggle.day,
+#dialog-ban-user .dialog-body .duration .toggle.forever,
+#dialog-ban-user .dialog-body ul li:nth-child(n+1),
+#dialog-ban-user .dialog-body li .radio,
+#dialog-mute-user .dialog-body .duration .toggle.short,
+#dialog-mute-user .dialog-body .duration .toggle.medium,
+#dialog-mute-user .dialog-body .duration .toggle.long,
+#dialog-mute-user .dialog-body ul li:nth-child(n+1),
+#dialog-mute-user .dialog-body li .radio
+{
+        opacity:                1;
+
+        -webkit-transition:     all 0.2s linear;
+        -moz-transition:        all 0.2s linear;
+        -o-transition:          all 0.2s linear;
+        transition:             all 0.2s linear;
+}
+
+#dialog-user-role .role-menu .menu :hover > li:nth-child(n+1)
+{
+        opacity:                0.65;
+}
+
+#dialog-ban-user .dialog-body .duration:hover > .toggle,
+#dialog-ban-user .dialog-body .duration:hover > .toggle.day,
+#dialog-ban-user .dialog-body .duration:hover > .toggle.forever,
+#dialog-ban-user .dialog-body ul:hover > li:nth-child(n+1),
+#dialog-ban-user .dialog-body li .radio,
+#dialog-mute-user .dialog-body .duration:hover > .toggle.short,
+#dialog-mute-user .dialog-body .duration:hover > .toggle.medium,
+#dialog-mute-user .dialog-body .duration:hover > .toggle.long,
+#dialog-mute-user .dialog-body ul:hover > li:nth-child(n+1),
+#dialog-mute-user .dialog-body li .radio
+{
+        opacity:                0.3;
+}
+
+#dialog-user-role .role-menu .menu li:nth-child(n+1):hover,
+#dialog-ban-user .dialog-body .duration .toggle:hover,
+#dialog-ban-user .dialog-body .duration .toggle.day:hover,
+#dialog-ban-user .dialog-body .duration .toggle.forever:hover,
+#dialog-ban-user .dialog-body ul li:nth-child(n+1):hover,
+#dialog-ban-user .dialog-body li .radio:hover,
+#dialog-mute-user .dialog-body .duration .toggle.short:hover,
+#dialog-mute-user .dialog-body .duration .toggle.medium:hover,
+#dialog-mute-user .dialog-body .duration .toggle.long:hover,
+#dialog-mute-user .dialog-body ul li:nth-child(n+1):hover,
+#dialog-mute-user .dialog-body li .radio:hover
+{
+        opacity:                1;
+}
+
+#dialog-user-role .dialog-frame .button.cancel,
+#dialog-user-role .dialog-frame .button.submit,
+#dialog-ban-user .dialog-frame .button.cancel,
+#dialog-ban-user .dialog-frame .button.submit,
+#dialog-mute-user .dialog-frame .button.submit,
+#dialog-mute-user .dialog-frame .button.cancel,
+#dialog-gift-send .dialog-frame .button.submit,
+#dialog-gift-send .dialog-frame .button.cancel
+{
+        background:             rgba(0, 0, 0, 1) !important;
+
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-user-role .dialog-frame:hover > .button.cancel,
+#dialog-user-role .dialog-frame:hover > .button.submit,
+#dialog-ban-user .dialog-frame:hover > .button.cancel,
+#dialog-ban-user .dialog-frame:hover > .button.submit,
+#dialog-mute-user .dialog-frame:hover > .button.cancel,
+#dialog-mute-user .dialog-frame:hover > .button.submit,
+#dialog-gift-send .dialog-frame:hover > .button.submit,
+#dialog-gift-send .dialog-frame:hover > .button.cancel
+{
+        opacity:                0.4;
+}
+
+#dialog-user-role .dialog-frame .button.cancel:hover,
+#dialog-user-role .dialog-frame .button.submit:hover,
+#dialog-ban-user .dialog-frame .button.cancel:hover,
+#dialog-ban-user .dialog-frame .button.submit:hover,
+#dialog-mute-user .dialog-frame .button.cancel:hover,
+#dialog-mute-user .dialog-frame .button.submit:hover,
+#dialog-gift-send .dialog-frame .button.submit:hover,
+#dialog-gift-send .dialog-frame .button.cancel:hover
+{
+        opacity:                1;
+}
+
+#dialog-user-role .dialog-frame .button.submit:hover,
+#dialog-ban-user .dialog-frame .button.submit:hover,
+#dialog-mute-user .dialog-frame .button.submit:hover,
+#dialog-gift-send .dialog-frame .button.submit:hover
+{
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+#dialog-user-role .dialog-frame .button.cancel:hover,
+#dialog-ban-user .dialog-frame .button.cancel:hover,
+#dialog-mute-user .dialog-frame .button.cancel:hover,
+#dialog-gift-send .dialog-frame .button.cancel:hover
+{
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(146, 90, 255, 1) !important;  
+}
+
+/* Video Preview Dialog [In Song List] */
+
+#dialog-preview .dialog-frame
+{
+        background: rgba(0, 0, 0, 1) !important;
+}
+
+#dialog-preview .dialog-frame .button.submit
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#dialog-preview .dialog-frame .button.submit:hover
+{
+        -webkit-box-shadow:     inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
+ 
+}
+
+/********/
+/*HEADER*/
+/********/
+
+/* Room History & RCS Skip Button */
+#history-button,
+#rs-skip-button
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#rs-skip-button
+{
+        /* Prevents Flicker Issues */
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+        -moz-box-shadow:        inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+        -o-box-shadow:          inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+        box-shadow:             inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+}
+
+#history-button
+{
+        /* Prevents Flicker Issues */
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(0, 156, 221, 0);
+        -moz-box-shadow:        inset 0 0 0 0 rgba(0, 156, 221, 0);
+        -o-box-shadow:          inset 0 0 0 0 rgba(0, 156, 221, 0);
+        box-shadow:             inset 0 0 0 0 rgba(0, 156, 221, 0);
+}
+
+#rs-skip-button, 
+#history-button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#rs-skip-button:hover
+{
+        -webkit-box-shadow:     inset 0 5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+#history-button:hover
+{
+        -webkit-box-shadow:     inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+#rs-skip-button .icon-skip:hover 
+{
+        -webkit-animation:      shift .80s ease-in-out !important;
+        -moz-animation:         shift .80s ease-in-out !important;
+        -o-animation:           shift .80s ease-in-out !important;
+        animation:              shift .80s ease-in-out !important;
+}
+
+/* Plug Logo Menu */
+#app-menu .button, 
+#app-menu .list
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#app-menu .button, 
+#app-menu .item, 
+#app-menu .logout
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#app-menu .button:hover
+{
+        /* Set to +5 and not -5 because -5 does not appear */
+        -webkit-box-shadow:     inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 5px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+#app-menu .list a
+{
+        background:             rgba(0, 0, 0, 0) !important;
+}
+
+#app-menu .list:hover > .community,
+#app-menu .list:hover > a:nth-child(2) > .events,
+#app-menu .list:hover > a:nth-child(3) > .support,
+#app-menu .list:hover > a:nth-child(4) > .blog,
+#app-menu .list:hover > a:nth-child(5) > .about,
+#app-menu .list:hover > a:nth-child(6) > .api, 
+#app-menu .list:hover > a:nth-child(7) > .terms,
+#app-menu .list:hover > a:nth-child(8) > .privacy,
+#app-menu .list:hover > .logout
+
+{
+        opacity:                0.3;
+    
+}
+
+#app-menu .list .community:hover,
+#app-menu .list a:nth-child(2) > .events:hover,
+#app-menu .list a:nth-child(3) > .support:hover,
+#app-menu .list a:nth-child(4) > .blog:hover,
+#app-menu .list a:nth-child(5) > .about:hover,
+#app-menu .list a:nth-child(6) > .api:hover, 
+#app-menu .list a:nth-child(7) > .terms:hover,
+#app-menu .list a:nth-child(8) > .privacy:hover
+{
+        opacity:                1 !important;
+}
+
+/* Plug Logo Menu Cont. */
+#app-menu:hover > .list .logout
+{
+        opacity:        0.5 !important;
+}
+
+#app-menu .list .logout:hover
+{
+        opacity:        1 !important;
+}
+
+#app-menu .community,
+#app-menu .events, 
+#app-menu .support, 
+#app-menu .blog, 
+#app-menu .about, 
+#app-menu .api, 
+#app-menu .terms, 
+#app-menu .privacy
+{
+        opacity:                0.8;
+}
+
+#app-menu
+{
+        opacity:                0.95;
+}
+
+/* Communities Tab */
+#dashboard 
+{
+    background: rgba(0, 0, 0, 1);
+}
+
+#dashboard .favorites
+{
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(40, 44, 53, 1);
+        -moz-box-shadow:        inset 0 0 0 0 rgba(40, 44, 53, 1);
+        -o-box-shadow:          inset 0 0 0 0 rgba(40, 44, 53, 1);
+        box-shadow:             inset 0 0 0 0 rgba(40, 44, 53, 1);
+}
+
+#dashboard .searching, 
+#dashboard .favorites, 
+#dashboard .cell, 
+#dashboard .join, 
+#dashboard .bar
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        opacity:                0.75;
+}
+
+#dashboard .tab-menu button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        opacity:                1;
+}
+
+
+#dashboard .tab-menu button:not(.selected):hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        opacity:                1;
+}
+
+#dashboard .cell
+{
+        opacity:                0.75;
+}
+
+#dashboard .cell:hover
+{
+        opacity:                1;
+}
+
+#dashboard .cell:hover > #dashboard .bar
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+}
+
+#dashboard .join:hover
+{
+        background:             rgba(255, 255, 255, 0.1);
+        opacity:                1 !important;
+}
+
+/* Room Meta (From Community Name to History Button) */
+#room-meta
+{
+        background:     rgba(0, 0, 0, 1) !important;
+}
+
+/* Chat Header */
+#chat-header
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#chat-header #chat-sound-button,
+#chat-header #chat-emoji-button,
+#chat-header #chat-timestamp-button,
+#chat-header #chat-popout-button,
+#chat-header #chat-mentions-button,
+#chat-header #rcs-clearchat
+{
+        opacity:                1;
+
+        -webkit-transition:     all 0.25s linear;
+        -moz-transition:        all 0.25s linear;
+        -o-transition:          all 0.25s linear;
+        transition:             all 0.25s linear; 
+}
+
+
+#chat-header:hover > #chat-sound-button,
+#chat-header:hover > #chat-emoji-button,
+#chat-header:hover > #chat-timestamp-button,
+#chat-header:hover > #chat-popout-button,
+#chat-header:hover > #chat-mentions-button,
+#chat-header:hover > #rcs-clearchat
+{
+        opacity:                0.5;
+}
+
+#chat-header #chat-sound-button:hover,
+#chat-header #chat-emoji-button:hover,
+#chat-header #chat-timestamp-button:hover,
+#chat-header #chat-popout-button:hover,
+#chat-header #chat-mentions-button:hover,
+#chat-header #rcs-clearchat:hover
+{
+        opacity:                1;
+}
+
+/* Icon Hover in User List */
+#user-lists .header .button.room i,
+#user-lists .header .button.staff,
+#user-lists .header .button.bans,
+#user-lists .header .button.mutes,
+#user-lists .header .button.ignored
+{        
+        opacity:                1;
+        
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-lists .header:hover > .button.room i,
+#user-lists .header:hover > .button.staff,
+#user-lists .header:hover > .button.bans,
+#user-lists .header:hover > .button.mutes,
+#user-lists .header:hover > .button.ignored
+{        
+        opacity:                0.5;
+}
+
+#user-lists .header .button.room i:hover,
+#user-lists .header .button.staff:hover,
+#user-lists .header .button.bans:hover,
+#user-lists .header .button.mutes:hover,
+#user-lists .header .button.ignored:hover
+{        
+        opacity:                1;
+}
+
+/* User List User Hover */
+#user-lists .list .jspPane .user
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-lists .list .jspPane .user:hover
+{
+        background:             rgba(148, 94, 242, 0.15) !important;
+}
+
+/* Friends List Hover */
+#app .friends .list .jspPane .row
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#app .friends .list .jspPane .row:hover
+{
+       background:              rgba(148, 94, 242, 0.2) !important; 
+}
+
+/* Header Selected Item + Titles */
+#app .header-panel-button.selected
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#chat-header,
+#user-lists .header,
+#waitlist .header,
+#app .friends .list-header
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+/* Hover over Chat, Waitlist, DJ List, Friends, RCS */
+#app .app-header .right-meta #chat-button,
+#app .app-header .right-meta #users-button,
+#app .app-header .right-meta #waitlist-button,
+#app .app-header .right-meta #friends-button,
+#app .app-header .right-meta #rcs-appright-button
+{
+        opacity: 1;
+
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#app .app-header .right-meta:hover > #chat-button,
+#app .app-header .right-meta:hover > #users-button,
+#app .app-header .right-meta:hover > #waitlist-button,
+#app .app-header .right-meta:hover > #friends-button,
+#app .app-header .right-meta:hover > #rcs-appright-button
+{
+        opacity: 0.4;
+}
+
+#app .app-header .right-meta #chat-button:hover,
+#app .app-header .right-meta #users-button:hover,
+#app .app-header .right-meta #waitlist-button:hover,
+#app .app-header .right-meta #friends-button:hover,
+#app .app-header .right-meta #rcs-appright-button:hover
+{
+        opacity: 1;
+}
+
+/********/
+/*FOOTER*/
+/********/
+
+/*** FOOTER ANIMATIONS ***/
+#footer-user .info
+{
+        background-color:       rgba(0, 0, 0, 1);
+        
+        -moz-animation:         fadein 0.34s;
+        -webkit-animation:      fadein 0.34s;
+        -o-animation:           fadein 0.34s;
+        animation:              fadein 0.34s;
+}
+
+/* Social Media Icon Animations */
+#facebook-menu .menu, #twitter-menu .menu
+{
+        -moz-animation:         fadein 0.38s;
+        -webkit-animation:      fadein 0.38s;
+        -o-animation:           fadein 0.38s;
+        animation:              fadein 0.38s;
+}
+
+/* History & Settings Icon Spin Animations */
+#history-button .icon, 
+#footer-user .buttons .button.settings .icon
+{
+        -moz-transition:        transform 1s ease-in-out;
+        -webkit-transition:     transform 1s ease-in-out;
+        -o-transition:          transform 1s ease-in-out;
+        transition:             transform 1s ease-in-out;
+}
+
+#history-button .icon:hover, 
+#footer-user .buttons .button.settings .icon:hover
+{
+        -moz-transform:         rotate(360deg) !important; 
+        -webkit-transform:      rotate(360deg) !important;
+        -o-transform            rotate(360deg) !important;
+        transform:              rotate(360deg) !important;
+}
+
+/* Footer Bar */
+#footer 
+{
+        background:             rgba(0, 0, 0, 1);
+}
+
+/* Footer Buttons Static */
+#footer-user .inventory,
+#footer-user .badge,
+#footer-user .store,
+#footer-user .profile,
+#footer-user .settings
+{
+        background:             rgba(0, 0, 0, 1) !important;
+        
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+/* Footer Button Animations */
+#footer-user
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+.buttons:hover > .inventory, 
+.buttons:hover > .badge, 
+.buttons:hover > .store, 
+.buttons:hover > .profile, 
+.buttons:hover > .settings
+{
+        opacity:                0.5;
+}
+#footer-user .inventory:hover, 
+#footer-user .badge:hover, 
+#footer-user .store:hover, 
+#footer-user .profile:hover, 
+#footer-user .settings:hover
+{
+        opacity:                1;
+}
+
+#footer-user .inventory:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(146, 56, 146, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 56, 146, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 56, 146, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 56, 146, 1) !important;
+}
+#footer-user .badge:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(135, 68, 156, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(135, 68, 156, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(135, 68, 156, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(135, 68, 156, 1) !important;
+}
+#footer-user .store:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(120, 84, 169, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(120, 84, 169, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(120, 84, 169, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(120, 84, 169, 1) !important;
+        -webkit-animation:      smallSpin .80s ease-in-out;
+        -moz-animation:         smallSpin .80s ease-in-out;
+        -o-animation:           smallSpin .80s ease-in-out;
+        animation:              smallSpin .80s ease-in-out;
+}
+#footer-user .profile:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(98, 108, 188, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(98, 108, 188, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(98, 108, 188, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(98, 108, 188, 1) !important;
+}
+#footer-user .settings:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+}
+
+/* SOCIAL ICON FLIPS */
+.social-menu .icon:hover 
+{
+        -webkit-animation:      bigSpin .80s ease-in-out;
+        -moz-animation:         bigSpin .80s ease-in-out;
+        -o-animation:           bigSpin .80s ease-in-out;
+        animation:              bigSpin .80s ease-in-out;
+
+}
+
+/* WOOT GRAB MEH */
+#meh, #woot, #grab
+{
+        opacity:                0.6;
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#vote:hover > #woot, 
+#vote:hover > #grab, 
+#vote:hover > #meh
+{
+        opacity:                0.75;
+}
+#vote #woot:hover, 
+#vote #grab:hover, 
+#vote #meh:hover
+{
+        opacity:                1;
+}
+
+/* DJ */
+#dj-button .left
+{
+        background:             rgba(40,44,53,1) !important;
+}
+#dj-button
+{
+        opacity:                0.6;
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button:hover
+{
+        opacity:                1;
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(84, 123, 201, 1) !important;
+}
+
+/* Delete Chat Hover */
+#chat .delete-button
+{
+        -webkit-transition:     all 0.2s linear;
+        -moz-transition:        all 0.2s linear;
+        -o-transition:          all 0.2s linear;
+        transition:             all 0.2s linear;  
+}
+
+/* Chat Hover Box */
+#chat .emote,
+#chat .log, 
+#chat .mention,
+#chat .message, 
+#chat .moderation, 
+#chat .promo, 
+#chat .skip,
+#chat .user-action,
+#chat .welcome
+{
+        -webkit-transition:     all 0.25s linear;
+        -moz-transition:        all 0.25s linear;
+        -o-transition:          all 0.25s linear;
+        transition:             all 0.25s linear;
+}
+#chat .emote:hover,
+#chat .log:hover, 
+#chat .mention:hover,
+#chat .message:hover, 
+#chat .moderation:hover, 
+#chat .promo:hover,
+#chat .skip:hover,
+#chat .user-action:hover, 
+#chat .welcome:hover
+{
+        -webkit-box-shadow:     inset 0 0 0 2px rgba(84, 123, 201, 1) !important;
+        -moz-box-shadow:        inset 0 0 0 2px rgba(84, 123, 201, 1) !important;
+        -o-box-shadow:          inset 0 0 0 2px rgba(84, 123, 201, 1) !important;
+        box-shadow:             inset 0 0 0 2px rgba(84, 123, 201, 1) !important;
+}
+/* Chat Message Fadein */
+#chat .emote:nth-child(n+1),
+#chat .log:nth-child(n+1),
+#chat .mention:nth-child(n+1), 
+#chat .message:nth-child(n+1),
+#chat .moderation:nth-child(n+1),
+#chat .skip:nth-child(n+1), 
+#chat .update:nth-child(n+1),
+#chat .user-action:nth-child(n+1),
+#chat .welcome:nth-child(n+1) 
+{ 
+        -webkit-animation:      fadein 0.35s; 
+        -moz-animation:         fadein 0.35s; 
+        -o-animation:           fadein 0.35s; 
+        animation:              fadein 0.35s; 
+} 
+
+/* User Rollover */
+#user-rollover
+{
+        opacity:                0.95;
+        background:             rgba(28, 28, 28, 1) !important;
+}
+
+#user-rollover .info
+{
+        background:             rgba(49, 49, 49, 1) !important;
+        
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-rollover .meta,
+#user-rollover .actions .friend,
+#user-rollover .actions .gift,
+#user-rollover .actions .ignore,
+#user-rollover .actions .mention,
+#user-rollover .actions .mod-ban,
+#user-rollover .actions .mod-dj,
+#user-rollover .actions .mod-mute,
+#user-rollover .actions .mod-staff,
+#user-rollover .actions .skip
+{
+        background:             rgba(0, 0, 0, 0) !important;
+        
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+/* OPTIONAL
+#user-rollover:hover > .info,
+#user-rollover:hover > .meta, */
+#user-rollover:hover > .actions .friend,
+#user-rollover:hover > .actions .gift,
+#user-rollover:hover > .actions .ignore,
+#user-rollover:hover > .actions .mention,
+#user-rollover:hover > .actions .mod-ban,
+#user-rollover:hover > .actions .mod-dj,
+#user-rollover:hover > .actions .mod-mute,
+#user-rollover:hover > .actions .mod-staff,
+#user-rollover:hover > .actions .skip
+{
+    /* IF FLICKER ISSUES ARE FIXED, RAISE TO 0.5 */
+        opacity:                0.3 !important;
+}
+
+#user-rollover .actions .friend:hover,
+#user-rollover .actions .gift:hover,
+#user-rollover .actions .ignore:hover,
+#user-rollover .actions .mention:hover,
+#user-rollover .actions .mod-ban:hover,
+#user-rollover .actions .mod-dj:hover,
+#user-rollover .actions .mod-mute:hover,
+#user-rollover .actions .mod-staff:hover,
+#user-rollover .actions .skip:hover
+{
+        opacity:                1 !important;
+        
+        /* FLICKER ISSUES !! Disabled until they are fixed.
+        -webkit-box-shadow:     inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important;
+        -moz-box-shadow:        inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important;
+        -o-box-shadow:          inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important;
+        box-shadow:             inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important; */
+}
+
+#user-rollover .info:hover,
+#user-rollover .meta:hover
+{
+         opacity:               1 !important;
+}
+
+/**********/
+/*PLAYLIST*/
+/**********/
+#playlist-panel
+{
+        opacity:                0.9;
+}
+
+#playlist-panel #search
+{
+        background:             rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-button
+{
+        background:             rgba(0, 0, 0, 1) !important;
+        
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        
+        /* Prevents Flicker Issues */
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(146, 90, 255, 1);
+        -moz-box-shadow:        inset 0 0 0 0 rgba(146, 90, 255, 1);
+        -o-box-shadow:          inset 0 0 0 0 rgba(146, 90, 255, 1);
+        box-shadow:             inset 0 0 0 0 rgba(146, 90, 255, 1);
+}
+
+#playlist-button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important; 
+}
+
+#playlist-import, #playlist-create
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#playlist-import:hover
+{
+        background:             rgba(47, 52, 62, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+#playlist-create:hover
+{
+        background:             rgba(64, 70, 84, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(0, 156, 221, 1) !important;
+}
+
+.menu .row 
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+.menu .selected
+{
+        background:             rgba(50, 60, 105, 1) !important;
+}
+
+.menu .row:hover
+{
+        background:             rgba(50, 35, 76, 1) !important;
+}
+
+.menu .selected:hover
+{
+        background:             rgba(50, 35, 76, 1) !important;
+}
+
+#playlist-delete-button
+{
+        /* Prevents Flicker Issues */
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(230, 84, 52, 0);
+        -moz-box-shadow:        inset 0 0 0 0 rgba(230, 84, 52, 0);
+        -o-box-shadow:          inset 0 0 0 0 rgba(230, 84, 52, 0);
+        box-shadow:             inset 0 0 0 0 rgba(230, 84, 52, 0);
+}
+
+#playlist-edit-button, 
+#playlist-shuffle-button, 
+#playlist-delete-button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#playlist-edit-button:hover
+{
+        background: rgba(85, 93, 112, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(0, 168, 217, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(0, 168, 217, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(0, 168, 217, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(0, 168, 217, 1) !important;
+}
+
+#playlist-shuffle-button:hover
+{
+        background: rgba(68, 74, 89, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+}
+
+#playlist-delete-button:hover
+{
+        background: rgba(49, 53, 65, 1);
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(230, 84, 52, 1) !important;
+}
+
+#media-panel .jspPane .row, 
+#media-panel .jspPane .selected, 
+#media-panel .jspPane .row .actions
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+#media-panel .jspPane .row:hover
+{
+        background:             rgba(50, 35, 76, 1) !important;
+}
+
+#media-panel .jspPane .selected
+{
+        background:             rgba(50, 60, 105, 1) !important;
+}
+
+#media-panel .jspPane .selected:hover
+{
+        background:             rgba(50, 35, 76, 1) !important;
+}
+
+#media-panel .header .button
+{
+        background:             rgba(50, 55, 66, 0) !important;
+
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+#media-panel .header .button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(148, 94, 242, 1) !important;
+}
+
+#media-panel .header .back i
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#media-panel .header .back i:hover
+{
+        -webkit-animation:      shiftLeft .80s ease-in-out !important;
+        -moz-animation:         shiftLeft .80s ease-in-out !important;
+        -o-animation:           shiftLeft .80s ease-in-out !important;
+        animation:              shiftLeft .80s ease-in-out !important;
+}
+
+#playlist-activate-button
+{
+        background:             rgba(50, 35, 76, 0) !important;
+        
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#playlist-activate-button:hover
+{
+        /* Needs: Activate button to not have a hover effect. */
+        background:             rgba(50, 35, 76, 1) !important;
+}
+
+/* Playlist Song Search */
+#search-suggestion li.search-suggestion-item:nth-child(n+1)
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#search-suggestion li.search-suggestion-item:nth-child(n+1):hover
+{
+        background:             rgba(148, 94, 242, 0.2) !important;
+}
+
+/*******************/
+/*ANIMATION BINDERS*/
+/*******************/
+
+/* FADEIN */
+@-o-keyframes, @-moz-keyframes, @-webkit-keyframes, @keyframes fadein
+{
+        from {
+                opacity:        0;
+        }
+        to {
+                opacity:        1;
+        }
+}
+
+/* Spins */
+@keyframes bigSpin
+{
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    33% {
+        -webkit-transform: rotate(-20deg);
+        -moz-transform: rotate(-20deg);
+        -o-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
+
+    66% {
+        -webkit-transform: rotate(20deg);
+        -moz-transform: rotate(20deg);
+        -o-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes smallSpin
+{
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    33% {
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    66% {
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+/* X Shift */
+@keyframes shift
+{
+    0% {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    
+    33% {
+        -webkit-transform: translateX(3px);
+        -moz-transform: translateX(3px);
+        -o-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    66% {
+        -webkit-transform: translateX(-1px);
+        -moz-transform: translateX(-1px);
+        -o-transform: translateX(-1px);
+        transform: translateX(-1px);
+    }
+    
+    100% {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+/* X Shift - Left */
+@keyframes shiftLeft
+{
+    0% {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    
+    33% {
+        -webkit-transform: translateX(-3px);
+        -moz-transform: translateX(-3px);
+        -o-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    66% {
+        -webkit-transform: translateX(1px);
+        -moz-transform: translateX(1px);
+        -o-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    
+    100% {
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+/********/
+/*BADGES*/
+/********/
+
+/* STAFF */
+
+/* greySynapse */
+#chat-messages .id-4107431 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/orMchHz.png'); 
+        background-size:        cover; 
+}
+
+/* donvoo */
+#chat-messages .id-4537120 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/kXLv94f.png'); 
+        background-size:        cover; 
+}
+
+/* Dakotah & Tyler*/
+#chat-messages .id-5858419 .badge-box i.bdg,
+#chat-messages .id-5059733 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/TUpNzNx.png'); 
+        background-size:        cover; 
+}
+
+/* Quilly */
+#chat-messages .id-5739801 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/ORqGbTK.png'); 
+        background-size:        cover; 
+}
+
+/* Vocal */ /*
+#chat-messages .id-6108348 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/jU0JBXE.png'); 
+        background-size:        cover; 
+} */
+
+/* Meow */
+#chat-messages .id-3901318 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/xUwxAln.png'); 
+        background-size:        cover; 
+}
+
+/* PixelBreeze */
+#chat-messages .id-6175571 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/D01BR0n.gif'); 
+        background-size:        cover; 
+}
+
+/* 4rr0ws */
+#chat-messages .id-3440313 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/CqrjajO.png'); 
+        background-size:        cover; 
+}
+
+/* Tweetcore-331 */
+#chat-messages .id-9717089 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/eaetCd4.gif'); 
+        background-size:        cover; 
+}
+
+/* Tatsuya */
+#chat-messages .id-5326211 .badge-box i.bdg
+{ 
+        background-image:       url('http://i.imgur.com/ZZWyz4z.png'); 
+        background-size:        cover; 
+}
+
+/* Kirby */
+#chat-messages .id-3893149 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/wVoTPJl.png');
+        background-size:        cover;
+}
+
+/* Momiji */
+#chat-messages .id-5419138 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/i8T5K2i.png');
+        background-size:        cover;
+}
+
+/* asiansweg */
+#chat-messages .id-5520544 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/OJZqg2l.png');
+        background-size:        cover;
+}
+
+/* MiniGossip */
+#chat-messages .id-4594269 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/umo7EN1.png');
+        background-size:        cover;
+}
+
+/* SamuraiFlamenco */
+#chat-messages .id-5006104 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/ScHzKoH.jpg');
+        background-size:        cover;
+}
+
+/* Danklight */
+#chat-messages .id-6582089 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/Cvz513v.png');
+        background-size:        cover;
+}
+
+/* Char */
+#chat-messages .id-6181075 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/B3VAx5q.png');
+        background-size:        cover;
+}
+
+/* RedasTLU */
+#chat-messages .id-4725288 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/ubMDlj2.png');
+        background-size:        cover;
+}
+
+/* NightcoreOP */
+#chat-messages .id-6133094 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/gIp5xsO.png');
+        background-size:        cover;
+}
+
+/* BushiNinja */
+#chat-messages .id-4189310 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/0IOwxkm.png');
+        background-size:        cover;
+}
+
+/* DJ Despair */
+#chat-messages .id-6206976 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/eFhwPXu.png');
+        background-size:        cover;
+}
+
+/* ECPinoy */
+#chat-messages .id-3816188 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/e1iuvDt.png');
+        background-size:        cover;
+}
+
+/* JennyMagic */
+#chat-messages .id-5009139 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/oLfGCbZ.png');
+        background-size:        cover;
+}
+
+/* Fabbes */
+#chat-messages .id-6116330 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/21aYz3g.png');
+        background-size:        cover;
+}
+
+/* Kaboom */
+#chat-messages .id-4742323 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/EBlG6hO.png');
+        background-size:        cover;
+}
+
+/* Snorlax */
+#chat-messages .id-4713374 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/7nfxx6p.png');
+        background-size:        cover;
+}
+
+/* Koyomi */
+#chat-messages .id-5021769 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/gla5B8F.png');
+        background-size:        cover;
+}
+
+/* DJ Dude Alex */
+#chat-messages .id-4058796 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/f6qPk3s.png');
+        background-size:        cover;
+}
+
+/* ROBIN */
+#chat-messages .id-5891472 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/2rrKrVb.png');
+        background-size:        cover;
+}
+
+/* LEMON */
+#chat-messages .id-5356956 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/bxTJAl9.png');
+        background-size:        cover;
+}
+
+/* Natilie */
+#chat-messages .id-5059731 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/6jtg0uD.png');
+        background-size:        cover;
+}
+
+/* TheBanHammer */
+#chat-messages .id-3620521 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/knH3iDM.png');
+        background-size:        cover;
+}
+
+/* 23pies */
+#chat-messages .id-3465196 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/L3WGLBs.png');
+        background-size:        cover;
+}
+
+/* Ivy */
+#chat-messages .id-4762975 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/ReeDvoo.png');
+        background-size:        cover;
+}
+
+/* Daisy */
+#chat-messages .id-5965406 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/C21RViw.png');
+        background-size:        cover;
+}
+
+/* FEK */
+#chat-messages .id-4845374 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/vf6yEqG.jpg');
+        background-size:        cover;
+}
+
+/* Allo */
+#chat-messages .id-4444591 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/opp3TlA.jpg');
+        background-size:        cover;
+}
+
+/* Rin */
+#chat-messages .id-5653326 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/cPT7gVW.png');
+        background-size:        cover;
+}
+
+/* Zephy */
+#chat-messages .id-8121173 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/5oecqkc.gif');
+        background-size:        cover;
+}
+
+/* HaremKing */
+#chat-messages .id-5979000 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/KZCyKYQ.gif');
+        background-size:        cover;
+}
+
+/* WindWalk */
+#chat-messages .id-4881577 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/So6oT7d.png');
+        background-size:        cover;
+}
+
+/* NON-STAFF */
+
+/* DREKEN */
+#chat-messages .id-3632408 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/6dGN02b.gif');
+        background-size:        cover;
+}
+
+/*********/
+/*7 MENUS*/
+/*********/
+
+/* SIDE MENU */
+#user-menu{
+        background:             rgba(0, 0, 0, 1);
+}
+
+#user-menu .avatar,
+#user-menu .profile,
+#user-menu .inventory,
+#user-menu .store,
+#user-menu .friends,
+#user-menu .played,
+#user-menu .community,
+#user-menu .settings
+{
+        opacity:                0.85;
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-menu:hover > .profile,
+#user-menu:hover > .inventory,
+#user-menu:hover > .store,
+#user-menu:hover > .friends,
+#user-menu:hover > .played,
+#user-menu:hover > .community,
+#user-menu:hover > .settings
+{
+        opacity:                0.35;
+}
+
+#user-menu .profile:hover,
+#user-menu .inventory:hover,
+#user-menu .store:hover,
+#user-menu .friends:hover,
+#user-menu .played:hover,
+#user-menu .community:hover,
+#user-menu .settings:hover
+{
+        opacity:                1;
+        background:             rgba(50, 60, 105, 1);
+
+}
+
+/* PROFILE */
+#the-user-profile
+{
+        background:             rgba(0, 0, 0, 1);
+        border-left:            3px solid rgba(42, 29, 64, 1);
+}
+
+#the-user-profile .subscribe-button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+/* MY STUFF */
+#user-inventory
+{
+        background:             rgba(0, 0, 0, 1);
+        border-left:            3px solid rgba(42, 29, 64, 1);
+}
+
+#user-inventory .tab-menu button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+#user-inventory .tab-menu button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+#user-inventory .tab-menu button:not(.selected):hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+#user-inventory dd .row,
+#user-inventory .jspPane .cell,
+#user-inventory
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-inventory dd .row:hover
+{
+        background:             rgba(50, 60, 105, 1);
+}
+
+#user-inventory .jspPane .cell
+{
+        opacity:                0.55 !important;
+}
+
+#user-inventory .jspPane .cell:hover
+{
+        opacity:                1 !important;
+}
+
+#user-inventory .row
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        opacity:                0.75;
+}
+
+#user-inventory .row:hover
+{
+        opacity:                1 !important;
+}
+
+/* SHOP */
+#user-store
+{
+        background:             rgba(0, 0, 0, 1);
+        border-left:            3px solid rgba(42, 29, 64, 1);
+}
+
+#user-store .tab-menu button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+#user-store .tab-menu button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+
+#user-store .tab-menu button:not(.selected):hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+#user-store dd .row,
+#user-store .jspPane .cell,
+#user-store
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-store dd .row:hover
+{
+        background:             rgba(50, 60, 105, 1);
+}
+
+#user-store .jspPane .cell
+{
+        opacity:                0.55 !important;
+}
+
+#user-store .jspPane .cell:hover
+{
+        opacity:                1 !important;
+}
+
+
+/* FRIENDS */
+#user-friends
+{
+        background:             rgba(0, 0, 0, 1);
+        border-left:            3px solid rgba(42, 29, 64, 1);
+}
+
+#user-friends .tab-menu button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+#user-friends .tab-menu button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+
+#user-friends .tab-menu button:not(.selected):hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+#user-friends .list .row, 
+#user-friends .list .row .buttons .positive,
+#user-friends .list .row .buttons .negative
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        opacity:                0.75;
+}
+
+#user-friends .list .row:hover
+{
+        opacity:                1 !important;
+}
+
+#user-friends .list .row .buttons .positive,
+#user-friends .list .row .buttons .negative
+{
+        background:             rgba(45, 49, 58, 1) !important;
+}
+
+#user-friends .list .row .buttons .positive:hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(7, 124, 174, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(7, 124, 174, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(7, 124, 174, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(7, 124, 174, 1) !important;
+}
+
+#user-friends .list .row .buttons .negative:hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(187, 66, 45, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(187, 66, 45, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(187, 66, 45, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(187, 66, 45, 1) !important;
+}
+
+/* RECENTLY PLAYED */
+#user-history
+{
+      background:               rgba(0, 0, 0, 1); 
+      border-left:              3px solid rgba(42, 29, 64, 1); 
+}
+
+#user-history .row
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-history .row:hover
+{
+        background: rgba(42, 29, 64, 1);
+}
+
+/* COMMUNITIES */
+#user-communities
+{
+      background: rgba(0, 0, 0, 1); 
+      border-left: 3px solid rgba(42, 29, 64, 1); 
+}
+
+#user-communities .cell, 
+#user-communities .join, 
+#user-communities .bar
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        opacity:                0.75;
+}
+
+#user-communities .cell
+{
+        opacity:                0.75;
+}
+
+#user-communities .cell:hover
+{
+        opacity:                1;
+}
+
+#user-communities .cell:hover > #dashboard .bar
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(0, 148, 209, 1) !important;
+}
+
+#user-communities .join:hover
+{
+        background:             rgba(255, 255, 255, 0.1);
+        opacity:                1 !important;
+}
+
+/* SETTINGS */
+#user-settings
+{
+      background:               rgba(0, 0, 0, 1);
+      border-left:              3px solid rgba(42, 29, 64, 1);
+}
+
+#user-settings .tab-menu button
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+        -webkit-box-shadow:     inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 0 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+#user-settings .tab-menu button:hover
+{
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(40, 44, 53, 1) !important;
+}
+
+
+#user-settings .tab-menu button:not(.selected):hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(146, 90, 255, 1) !important;
+}
+
+#user-settings .s-dancing,
+#user-settings .s-fao,
+#user-settings .s-vo,
+#user-settings .s-av,
+#user-settings .s-nsfw,
+#user-settings .s-tt,
+#user-settings .s-ci,
+#user-settings .s-dj,
+#user-settings .s-score
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-settings .s-dancing:hover,
+#user-settings .s-fao:hover,
+#user-settings .s-vo:hover,
+#user-settings .s-av:hover,
+#user-settings .s-nsfw:hover,
+#user-settings .s-tt:hover,
+#user-settings .s-ci:hover,
+#user-settings .s-dj:hover,
+#user-settings .s-score:hover
+{
+        background:             rgba(50, 60, 105, 0.3) !important;
+}
+
+#user-settings .account .right button, #user-settings .account .left dd .row
+{
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-settings .account .right button:hover
+{
+        webkit-box-shadow:      inset 0 -5px 0 0 rgba(240, 79, 48, 1) !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba(240, 79, 48, 1) !important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba(240, 79, 48, 1) !important;
+        box-shadow:             inset 0 -5px 0 0 rgba(240, 79, 48, 1) !important;
+        background:             rgba(40, 44, 53, 1);
+}
+
+#user-settings .account .left dd .row:hover
+{
+        background:             rgba(50, 60, 105, 1);
+}
+
+/* EXTRA */
+
+#footer-user .back
+{
+        background:             rgba(0, 0, 0, 1);
+        opacity:                0.55;
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#footer-user .back:hover
+{
+        opacity:                1;
+}
+
+/* Video Player Background */
+#playback .background 
+{
+        visibility:             hidden;
+}
+
+/******/
+/*CHAT*/
+/******/
+
+/* /me Messages / Emotes */
+#chat .emote .text
+{
+        color:                  rgba(125, 96, 206, 1) !important;
+       font-weight:             bold !important;
+        
+}
+
+#chat .emote .msg
+{
+        background:             rgba(45, 27, 97, 0.1) !important;
+}
+
+/***************/
+/*NAME STYLINGS*/
+/***************/
+
+/* Enyx */
+[data-cid^="3684485-"] .msg .from .un 
+{
+        color:                  #000 !important;
+        text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
+}
+
+/* Rin */
+[data-cid^="5653326"] .msg .from .un
+{
+        /* Pink */
+        color:                   rgba(255, 92, 175, 1) !important;
+}
+
+/* That Random Guy */
+[data-cid^="4105479"] .msg .from .un
+{
+        /* Orange */
+        color:                   rgba(236, 126, 51, 1) !important;
+}
+
+/* Kirby */
+[data-cid^="3893149"] .msg .from .un
+{
+        /* Pink */
+        color:                   rgba(230, 122, 227, 1) !important;
+}
+
+/* 4rr0ws */
+[data-cid^="3440313"] .msg .from .un
+{
+        /* Lime Green */
+        color:                   rgba(153, 255, 51, 1) !important;
+}
+
+/* greySynapse */
+[data-cid^="4107431"] .msg .from .un
+{
+        /* Grey */
+        color:                  rgba(187, 184, 203, 1) !important;
+}
+
+/* Dyll / Erio */
+[data-cid^="5762084"] .msg .from .un
+{
+        color:                  rgba(22, 196, 228, 1) !important ;
+}
+
+/* Non - Staff */
+
+/* Meow */
+[data-cid^="3901318"] .msg .from .un
+{
+        /* Teal */
+        color:                   rgba(54, 179, 215, 1) !important;
+}
+
+/* Kage */
+[data-cid^="3852661"] .msg .from .un
+{
+        /* Sky Blue */
+        color:                   rgba(24, 196, 252, 1) !important;
+}
+
+/* TBH */
+[data-cid^="3620521"] .msg .from .un
+{
+        /* Sky Blue */
+        color: rgb(255, 0, 245) !important; 
+        text-shadow: 0px 0px 10px rgb(35, 200, 208);
+}
+
+/************/
+/*SCROLL BAR*/
+/************/
+
+/* Entire Bar */
+#chat-messages::-webkit-scrollbar 
+{
+        width:                          12px !important;
+}
+ 
+/* Track */
+#chat-messages::-webkit-scrollbar-track 
+{
+                -webkit-border-radius:          3px !important;
+        background-color:               rgba(150, 150, 150, 0.2) !important; 
+
+}
+/* Track Hover */
+#chat-messages::-webkit-scrollbar-track:hover
+{
+        background-color:               rgba(150, 150, 150, 0.2) !important; 
+}
+ 
+/* Handle */
+#chat-messages::-webkit-scrollbar-thumb 
+{
+        -webkit-border-radius:          3px !important;
+        background-color:               rgba(150, 150, 150, 1) !important; 
+}
+/* Handle Hover */
+#chat-messages::-webkit-scrollbar-thumb:hover
+{
+      background-color:                  rgba(84, 123, 160, 1) !important;             
+}
+
+/**************/
+/*TEST SECTION*/
+/**************/
 
