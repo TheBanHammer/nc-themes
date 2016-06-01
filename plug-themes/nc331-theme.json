@@ -1,7 +1,7 @@
 {
     "room":                     "NC 331",
-    "author":                   " ",
-    "css":                      " ",
+    "author":                   "PixelBreeze & TheBanHammer",
+    "css":                      "https://cdn.rawgit.com/TheBanHammer/nc-themes/master/plug-themes/nc331-theme.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
@@ -67,17 +67,14 @@
         "asianxallo":           "http://i.imgur.com/JA2YFpK.png",
         "tuturu":               "http://i.imgur.com/2aSciA1.png",
         "catbird":              "http://i.imgur.com/fjUDqUt.gif",
-        "rin":                  "http://i.imgur.com/7Ywnc9O.png",
         "illya":                "http://i.imgur.com/caa26YO.png",
         "kabum":                "http://i.imgur.com/CNX9Sda.png",
         "tazzyshower":          "http://i.imgur.com/pfYieXr.png",
         "trgsfear":             "http://i.imgur.com/P9w2bBq.jpg",
-        "rinloli":              "http://i.imgur.com/IJnAA5D.png",
         "petme":                "http://i.imgur.com/ZcXheej.gif",
         "sadneko":              "http://i.imgur.com/fDPfNZd.gif",
         "lelneko":              "http://i.imgur.com/sG2QRI3.gif",
         "bugdj":                "http://i.imgur.com/pj4qROD.png",
-        "quilly":               "http://i.imgur.com/jChJmDS.png",
         "lennygif":             "http://i.imgur.com/Rii79kX.gif",
         "djd":                  "http://i.imgur.com/38Yi44V.png"
     }
