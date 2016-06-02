@@ -1526,7 +1526,7 @@
 
 /* SIDE MENU */
 #user-menu{
-        background:             rgba(0, 0, 0, 1);
+        background:             rgb(3, 0, 7) !important;
 }
 
 #user-menu .avatar,
@@ -1859,7 +1859,7 @@
 /* SETTINGS */
 #user-settings
 {
-      background:               rgba(0, 0, 0, 1);
+      background:               rgb(3, 0, 7) !important;
       border-left:              3px solid rgba(42, 29, 64, 1);
 }
 
@@ -2063,4 +2063,3 @@
 /**************/
 /*TEST SECTION*/
 /**************/
-
