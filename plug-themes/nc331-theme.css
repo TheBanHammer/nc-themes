@@ -9,7 +9,7 @@
 /* Quit DJing Dialogue Box */
 #dialog-confirm
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #dialog-body
@@ -69,7 +69,7 @@
 #dialog-playlist-create,
 #dialog-delete
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #dialog-media-update .dialog-body, 
@@ -180,7 +180,7 @@
 #dialog-mute-user .dialog-frame,
 #dialog-gift-send .dialog-frame
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #dialog-user-role,
@@ -317,7 +317,7 @@
 
 #dialog-preview .dialog-frame
 {
-        background: rgba(0, 0, 0, 1) !important;
+        background: rgb(3, 0, 7) !important;
 }
 
 #dialog-preview .dialog-frame .button.submit
@@ -345,7 +345,7 @@
 #history-button,
 #rs-skip-button
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #rs-skip-button
@@ -403,7 +403,7 @@
 #app-menu .button, 
 #app-menu .list
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #app-menu .button, 
@@ -488,7 +488,7 @@
 /* Communities Tab */
 #dashboard 
 {
-    background: rgba(0, 0, 0, 1);
+    background: rgb(3, 0, 7) !important;
 }
 
 #dashboard .favorites
@@ -558,7 +558,7 @@
 /* Room Meta (From Community Name to History Button) */
 #room-meta
 {
-        background:     rgba(0, 0, 0, 1) !important;
+        background:     rgb(3, 0, 7) !important;
 }
 
 /* Chat Header */
@@ -667,7 +667,7 @@
 /* Header Selected Item + Titles */
 #app .header-panel-button.selected
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #chat-header,
@@ -675,7 +675,7 @@
 #waitlist .header,
 #app .friends .list-header
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 /* Hover over Chat, Waitlist, DJ List, Friends, RCS */
@@ -757,7 +757,7 @@
 /* Footer Bar */
 #footer 
 {
-        background:             rgba(0, 0, 0, 1);
+        background:             rgb(3, 0, 7) !important;
 }
 
 /* Footer Buttons Static */
@@ -767,7 +767,7 @@
 #footer-user .profile,
 #footer-user .settings
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
         
         -webkit-transition:     all 0.3s linear;
         -moz-transition:        all 0.3s linear;
@@ -1035,12 +1035,12 @@
 
 #playlist-panel #search
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
 }
 
 #playlist-button
 {
-        background:             rgba(0, 0, 0, 1) !important;
+        background:             rgb(3, 0, 7) !important;
         
         -webkit-transition:     all 0.3s linear;
         -moz-transition:        all 0.3s linear;
@@ -1393,7 +1393,7 @@
 /* STAFF */
 
 /* PixelBreeze */
-#chat-messages .id-6175571 .badge-box i.bdg
+#chat-messages .id-196490 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/D01BR0n.gif'); 
         background-size:        cover; 
@@ -1947,7 +1947,7 @@
 
 #footer-user .back
 {
-        background:             rgba(0, 0, 0, 1);
+        background:             rgb(3, 0, 7) !important;
         opacity:                0.55;
         -webkit-transition:     all 0.3s linear;
         -moz-transition:        all 0.3s linear;
