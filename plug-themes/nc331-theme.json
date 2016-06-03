@@ -13,9 +13,9 @@
         "forceSmartVote":       false
     },
     "ccc": {
-        "admin":                "#1eb6e7",
-        "ambassador":           "#1bbc5f",
-        "host":                 "#923892",
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 "#87449c",
         "cohost":               "#87449c",
         "manager":              "#7854a9",
         "bouncer":              "#626cbc",
@@ -25,15 +25,15 @@
         "user":                 null
     },
     "images": {
-        "background":           "http://i.imgur.com/z7ZkwaJ.jpg",
-        "playback":             "http://i.imgur.com/ybkREks.png",
-        "admin":                "http://i.imgur.com/jAhVtVF.png",
-        "ambassador":           "http://i.imgur.com/HWucg1I.png",
-        "host":                 "http://i.imgur.com/JOlqRg9.png",
-        "cohost":               "http://i.imgur.com/JOlqRg9.png",
-        "manager":              "http://i.imgur.com/bebMb8k.png",
-        "bouncer":              "http://i.imgur.com/jA7CGAX.png",
-        "rdj":                  "http://i.imgur.com/EBEFOAY.png",
+        "background":           null,
+        "playback":             null,
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 "https://i.imgur.com/02KPu0s.png",
+        "cohost":               "https://i.imgur.com/02KPu0s.png",
+        "manager":              "https://i.imgur.com/PaY7oBG.png",
+        "bouncer":              "https://i.imgur.com/oYnR57p.png",
+        "rdj":                  "https://i.imgur.com/F6gPcXh.png",
         "subscriber":           null
     },
     "autocomplete": [],
