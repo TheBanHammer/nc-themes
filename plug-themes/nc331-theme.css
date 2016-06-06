@@ -1400,8 +1400,11 @@
 /* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
-        background-image:       url('http://i.imgur.com/578eh8e.png'); 
+        background-image:       url('http://i.imgur.com/flFtDDn.png'); 
         background-size:        cover; 
+}
+#chat-messages .id-196490 .badge-box {
+        background:none;
 }
 
 /* Kirby */
