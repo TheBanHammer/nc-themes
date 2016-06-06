@@ -1407,7 +1407,7 @@
 /* Kirby */
 #chat-messages .id-3893149 .badge-box i.bdg
 {
-        background-image:       url('https://i.imgur.com/C2sY9si.png');
+        background-image:       url('http://i.imgur.com/uxyQ4Wz.png');
         background-size:        cover;
 }
 
@@ -1447,16 +1447,16 @@
 }
 
 /* NightcoreOP */
-/*#chat-messages .id-6133094 .badge-box i.bdg
+#chat-messages .id-6133094 .badge-box i.bdg
 {
-        background-image:       url('http://i.imgur.com/gIp5xsO.png');
+        background-image:       url('http://i.imgur.com/DrpMWKQ.png');
         background-size:        cover;
-}*/
+}
 
 /* BushiNinja */
 #chat-messages .id-4189310 .badge-box i.bdg
 {
-        background-image:       url('https://i.imgur.com/yzUT4Or.jpg');
+        background-image:       url('http://i.imgur.com/S90uHkn.png');
         background-size:        cover;
 }
 
@@ -1501,6 +1501,13 @@
         background-image:       url('http://i.imgur.com/opp3TlA.jpg');
         background-size:        cover;
 }*/
+
+/* DJ dude alex */
+#chat-messages .id- .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/FtVD6sC.png');
+        background-size:        cover;
+}
 
 /* NON-STAFF */
 
@@ -1993,13 +2000,10 @@
 }
 
 /* Kirby */
-/*
-[data-cid^="3893149"].cm .msg .from .un, .role-manager.id-5762084 .name
+/* [data-cid^="3893149"].cm .msg .from .un, .role-manager.id-5762084 .name
 {
-        /* Pink */
         color:                   rgba(230, 122, 227, 1) !important;
-}
-*/
+} */
 
 /* Dyll / Erio */
 [data-cid^="5762084"].cm .msg .from .un, .role-manager.id-5762084 .name
