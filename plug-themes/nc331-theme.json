@@ -40,10 +40,7 @@
     "emotes": {
         "firelenny":            "http://i.imgur.com/jleilmo.gif",
         "gsheart":              "http://i.imgur.com/m1As4N0.png",
-        "doncat":               "http://orig09.deviantart.net/443e/f/2015/168/2/7/pusheen_icon_2_by_captaingam-d8xqk8y.gif",
         "doncatnoodles":        "http://fc07.deviantart.net/fs71/f/2014/359/e/5/pusheen_eating_ramen_by_pikuniku-d8b5irh.gif",
-        "doncatcute":           "http://static.planetminecraft.com/files/avatar/1754804_4.gif",
-        "donyan":               "http://i.imgur.com/iyMbKlX.gif",
         "doncatcookies":        "http://orig02.deviantart.net/956e/f/2014/201/6/9/_free_avatar__chef_pusheen_by_jericam-d7rhjnt.gif",
         "rainbowsheep":         "http://fc09.deviantart.net/fs71/f/2015/035/1/b/rainbow_sheep_by_addmedia-d8gpqbw.gif",
         "twerk":                "http://i.imgur.com/kF7m9Ab.gif",
@@ -76,6 +73,10 @@
         "lelneko":              "http://i.imgur.com/sG2QRI3.gif",
         "bugdj":                "http://i.imgur.com/pj4qROD.png",
         "lennygif":             "http://i.imgur.com/Rii79kX.gif",
-        "djd":                  "http://i.imgur.com/38Yi44V.png"
+        "djd":                  "http://i.imgur.com/38Yi44V.png",
+        "isla":                 "http://i.imgur.com/CTL9knY.png",
+        "kabum":                "https://cdn.bssecure.net/nightcore/emotes/kabum.png",
+        "pillowgirl":           "https://cdn.bssecure.net/nightcore/emotes/pillowgirl.gif",
+        "allokitty":            "https://i.imgur.com/j7EemL2.png"
     }
 }
