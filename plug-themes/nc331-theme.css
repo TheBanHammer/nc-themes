@@ -2126,7 +2126,7 @@
 
 .icon-chat-bouncer 
 {
-    background: url("https://i.imgur.com/oYnR57p.png");
+    background: url("http://i.imgur.com/aulbyGa.png");
 }
 
 .cm.role-manager .from .un, .role-manager .name
@@ -2136,7 +2136,7 @@
 
 .icon-chat-manager 
 {
-    background: url("https://i.imgur.com/PaY7oBG.png");
+    background: url("http://i.imgur.com/Ia0XNqc.png");
 }
 
 .cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
@@ -2144,7 +2144,12 @@
         color: #87449c !important;
 }
 
-.icon-chat-host, .icon-chat-cohost 
+.icon-chat-cohost 
 {
-    background: url("https://i.imgur.com/02KPu0s.png");
+    background: url("http://i.imgur.com/Qhh7mps.png");
+}
+
+.icon-chat-host 
+{
+    background: url("http://i.imgur.com/uvkSrZm.png");
 }
