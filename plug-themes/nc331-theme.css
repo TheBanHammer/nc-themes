@@ -1432,13 +1432,6 @@
         background-size:        cover;
 }
 
-/* Char */
-/*#chat-messages .id-6181075 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/B3VAx5q.png');
-        background-size:        cover;
-}*/
-
 /* RedasTLU */
 #chat-messages .id-4725288 .badge-box i.bdg
 {
@@ -1503,9 +1496,22 @@
 }*/
 
 /* DJ dude alex */
-#chat-messages .id- .badge-box i.bdg
+#chat-messages .id-4058796 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/FtVD6sC.png');
+        background-size:        cover;
+}
+
+/* Nuggie */
+#chat-messages .id-3901318 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/MmzLq1v.jpg');
+        background-size:        cover;
+}
+/* Char */
+#chat-messages .id-6181075 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/DutVmD0.png');
         background-size:        cover;
 }
 
