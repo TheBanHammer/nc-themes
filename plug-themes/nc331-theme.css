@@ -1993,11 +1993,13 @@
 }
 
 /* Kirby */
+/*
 [data-cid^="3893149"].cm .msg .from .un, .role-manager.id-5762084 .name
 {
         /* Pink */
         color:                   rgba(230, 122, 227, 1) !important;
 }
+*/
 
 /* Dyll / Erio */
 [data-cid^="5762084"].cm .msg .from .un, .role-manager.id-5762084 .name
