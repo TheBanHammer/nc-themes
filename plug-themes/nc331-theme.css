@@ -2014,33 +2014,33 @@
 /***************/
 
 /* Enyx */
-[data-cid^="3684485-"].cm .msg .from .un, .role-manager.id-3684485 .name
+[data-cid^="3684485-"].cm .msg .from .un, #user-lists .list .role-manager.id-3684485 .name
 {
         color:                  #000 !important;
         text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
 }
 
 /* That Random Guy */
-[data-cid^="4105479"].cm .msg .from .un, .role-cohost.id-4105479 .name
+[data-cid^="4105479"].cm .msg .from .un, #user-lists .list .role-cohost.id-4105479 .name
 {
         /* Orange */
         color:                   rgba(236, 126, 51, 1) !important;
 }
 
 /* Kirby */
-/* [data-cid^="3893149"].cm .msg .from .un, .role-manager.id-5762084 .name
+/* [data-cid^="3893149"].cm .msg .from .un, #user-lists .list .role-manager.id-5762084 .name
 {
         color:                   rgba(230, 122, 227, 1) !important;
 } */
 
 /* Dyll / Erio */
-[data-cid^="5762084"].cm .msg .from .un, .role-manager.id-5762084 .name
+[data-cid^="5762084"].cm .msg .from .un, #user-lists .list .role-manager.id-5762084 .name
 {
         color:                  rgba(22, 196, 228, 1) !important ;
 }
 
 /* TBH */
-[data-cid^="3620521"].cm .msg .from .un, .role-manager.id-3620521 .name
+[data-cid^="3620521"].cm .msg .from .un, #user-lists .list .role-manager.id-3620521 .name
 {
         /* Sky Blue */
         color: rgb(189, 53, 184) !important; 
@@ -2128,12 +2128,12 @@
 /*VIP's*/
 /*******/
 
-.cm.role-dj.id-3765403 .msg .from .un, .role-dj.id-3765403 .name 
+.cm.role-dj.id-3765403 .msg .from .un, #user-lists .list .role-dj.id-3765403 .name 
 {
     color: #FF8F00 !important;
 }
 
-.id-3765403 .msg .from .icon-chat-dj 
+.id-3765403 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-3765403 .icon-chat-dj
 {
     background: url("https://i.imgur.com/tmwo7Ps.png") !important;
     background-size: 12px !important;
