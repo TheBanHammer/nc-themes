@@ -2128,15 +2128,18 @@
 /*VIP's*/
 /*******/
 
-/*.cm.role-dj.id-6582089 .msg .from .un, .role-dj.id-6582089 .name 
+.cm.role-dj.id-3765403 .msg .from .un, .role-dj.id-3765403 .name 
 {
     color: #FF8F00 !important;
 }
 
-.id-6582089 .icon-chat-dj 
+.id-3765403 .msg .from .icon-chat-dj 
 {
     background: url("https://i.imgur.com/tmwo7Ps.png") !important;
-}*/
+    background-size: 12px !important;
+    background-repeat: no-repeat !important;
+    background-position: 3px 1px !important;
+}
 
 
 /*******/
