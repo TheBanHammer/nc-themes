@@ -2025,7 +2025,7 @@
 /***************/
 
 /* Enyx */
-[data-cid^="3684485-"].cm .msg .from .un, #user-lists .list .role-manager.id-3684485 .name
+[data-cid^="3684485-"].cm .msg .from .un, #user-lists .list .user.role-manager.id-3684485 .name
 {
         color:                  #000 !important;
         text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
@@ -2067,7 +2067,7 @@
         font-size: 13px;
 }
 
-[data-cid^="3620521"].cm:hover .msg .from .un, #user-lists .list .role-manager.id-3620521:hover .name {
+[data-cid^="3620521"].cm:hover .msg .from .un, #user-lists .list .user.role-manager.id-3620521:hover .name {
     color: rgb(0, 0, 0) !important;
     text-shadow: 0px 0px 1px #00a1ff, 0px 0px 5px #1e9bd6, 2px 2px 10px #00c4ff !important;
 }
