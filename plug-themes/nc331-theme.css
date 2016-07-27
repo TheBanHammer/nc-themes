@@ -1557,6 +1557,13 @@
 
 /* NON-STAFF */
 
+/* Origin */
+#chat-messages .id-3675504 .badge-box i.bdg
+{
+        background-image:       url('https://cdn.radiant.dj/rcs/emotes/img/orilurk.png');
+        background-size:        cover;
+}
+
 /* DREKEN */
 #chat-messages .id-3632408 .badge-box i.bdg
 {
