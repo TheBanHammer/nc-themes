@@ -1,7 +1,7 @@
 /*  Community Theme Styling */
 /*  Created Originally By donvoo(https://github.com/donvoo) & greySynapse(https://github.com/greySynapse) */
 /*  Maintained and Updated By TheBanHammer(https://github.com/thebanhammer) & PixelBreeze(https://github.com/PixelBreeze) */
-/* VERSION: 1.1 */
+/* VERSION: 1.2 */
 
 /********/
 /*TITLES*/
@@ -1557,7 +1557,13 @@
 /*AdorableCow*/
 #chat-messages .id-4115530 .badge-box i.bdg
 {
-        background-image:       url('http://imgur.com/a/5ZYo3');
+        background-image:       url('http://imgur.com/a/5ZYo3.png');
+        background-size:        cover;
+}
+/*Nightcore Brianna DJ */
+#chat-messages .id-13442611 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/NDcYHrH.png');
         background-size:        cover;
 }
 
