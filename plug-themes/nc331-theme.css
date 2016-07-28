@@ -1,7 +1,7 @@
 /*  Community Theme Styling */
 /*  Created Originally By donvoo(https://github.com/donvoo) & greySynapse(https://github.com/greySynapse) */
 /*  Maintained and Updated By TheBanHammer(https://github.com/thebanhammer) & PixelBreeze(https://github.com/PixelBreeze) */
-/* VERSION: 1.0 */
+/* VERSION: 1.1 */
 
 /********/
 /*TITLES*/
@@ -1552,6 +1552,12 @@
 #chat-messages .id-7132658 .badge-box i.bdg
 {
         background-image:       url('http://imgur.com/GjqDDCU.png');
+        background-size:        cover;
+}
+/*AdorableCow*/
+#chat-messages .id-4115530 .badge-box i.bdg
+{
+        background-image:       url('http://imgur.com/a/5ZYo3');
         background-size:        cover;
 }
 
