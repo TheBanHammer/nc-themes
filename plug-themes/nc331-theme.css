@@ -1479,6 +1479,12 @@
 }*/
 
 /* TheBanHammer */
+#chat-messages .id-3620521 .badge-box
+{
+        border-color: #00a1ff;
+        border-width: 1px;
+        border-style: solid;
+}
 #chat-messages .id-3620521 .badge-box i.bdg
 {
         /* Old Badge
