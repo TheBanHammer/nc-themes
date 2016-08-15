@@ -1398,6 +1398,13 @@
 
 /* STAFF */
 
+/* Nue hata / whatever */
+#chat-messages .id-3927729 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/d2b8z8P.png'); 
+        background-size:        cover; 
+}
+
 /* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
