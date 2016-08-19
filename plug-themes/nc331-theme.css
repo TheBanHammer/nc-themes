@@ -1398,6 +1398,13 @@
 
 /* STAFF */
 
+/* Mikhan - Shrek - Lengend of the kneeling swamp */
+#chat-messages .id-4396449 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/wFBsZrI.gif'); 
+        background-size:        cover; 
+}
+
 /* Nue hata / whatever */
 #chat-messages .id-3927729 .badge-box i.bdg
 {
