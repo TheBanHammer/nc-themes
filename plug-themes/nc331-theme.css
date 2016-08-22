@@ -1418,9 +1418,6 @@
         background-image:       url('http://i.imgur.com/DN9QbKe.gif'); /* http://i.imgur.com/flFtDDn.png */ 
         background-size:        cover; 
 }
-#chat-messages .id-196490 .badge-box {
-        background:none;
-}
 
 /* Kirby */
 #chat-messages .id-3893149 .badge-box i.bdg
@@ -1591,6 +1588,12 @@
 #chat-messages .id-13442611 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/NDcYHrH.png');
+        background-size:        cover;
+}
+/* Joe2648 */
+#chat-messages .id-5386736 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/14qtHSr.png');
         background-size:        cover;
 }
 
