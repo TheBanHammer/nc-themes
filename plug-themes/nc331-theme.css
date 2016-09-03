@@ -1,4 +1,4 @@
-@import url("https://cdn.rawgit.com/TheBanHammer/nc-themes/master/plug-themes/nc331-badges.css");
+@import url("https://cdn.bssecure.net/nc-themes/plug-themes/nc331-badges.css");
 /*  Community Theme Styling */
 /*  Created Originally By donvoo(https://github.com/donvoo) & greySynapse(https://github.com/greySynapse) */
 /*  Maintained and Updated By TheBanHammer(https://github.com/thebanhammer) & PixelBreeze(https://github.com/PixelBreeze) */
@@ -1913,6 +1913,11 @@
     color: rgb(0, 0, 0) !important;
     text-shadow: 0px 0px 1px #00a1ff, 0px 0px 5px #1e9bd6, 2px 2px 10px #00c4ff !important;
 }*/
+
+[data-cid^="4396449"].cm .msg .from .un, #user-lists .list .user.role-manager.id-3620521 .name {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: 0px 0px 1px #00ff08, 0px 0px 5px #4bff00, 2px 2px 10px #00ff08 !important;
+}
 
 
 /* Non - Staff */
