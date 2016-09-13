@@ -18,12 +18,14 @@
         background-size:        cover; 
 }
 
-/* PixelBreeze
+/* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
-        background-image:       url('http://i.imgur.com/DN9QbKe.gif');  http://i.imgur.com/flFtDDn.png 
+        background-image:       url('http://i.imgur.com/DN9QbKe.gif');  /*http://i.imgur.com/flFtDDn.png */
         background-size:        cover; 
-} */
+        background-position:    initial;
+        
+}
 
 /* Kirby */
 #chat-messages .id-3893149 .badge-box i.bdg
@@ -203,6 +205,18 @@
         background-size:        cover;
 }
 
+/* BULZAI */
+#chat-messages .id-8067032 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/fGKfZDv.gif');
+        background-size:        cover;
+}
+#chat-messages .id-8067032 .badge-box
+{
+        border: 1px solid yellow;
+}
+
+
 /* NON-STAFF */
 
 /* Origin */
@@ -218,3 +232,5 @@
         background-image:       url('http://i.imgur.com/TU9MSYQ.gif');
         background-size:        cover;
 }
+
+
