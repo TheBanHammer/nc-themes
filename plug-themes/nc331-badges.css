@@ -216,6 +216,13 @@
         border: 1px solid yellow;
 }
 
+/* Mirajane */
+#chat-messages .id-3548097 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/KOVdiIF.jpg');
+        background-size:        cover; 
+}
+
 
 /* NON-STAFF */
 
