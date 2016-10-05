@@ -11,13 +11,6 @@
         background-size:        cover; 
 }
 
-/* Nue hata / whatever */
-#chat-messages .id-3927729 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/d2b8z8P.png'); 
-        background-size:        cover; 
-}
-
 /* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
@@ -25,6 +18,33 @@
         background-size:        cover; 
         background-position:    initial;
         
+}
+
+/* TheBanHammer */
+#chat-messages .id-3620521 .badge-box, #chat-messages .id-14182548 .badge-box
+{
+        border-color: #00a1ff;
+        border-width: 1px;
+        border-style: solid;
+}
+#chat-messages .id-3620521 .badge-box i.bdg, #chat-messages .id-14182548 .badge-box i.bdg
+{
+        /* Old Badge
+        background-image:       url('https://i.imgur.com/jdadHuj.png');
+        background-size:        cover;
+        */
+        
+        background-image: url('https://i.imgur.com/EOuLASw.gif');
+        background-size: cover;
+        background-color: #404040;
+        background-position-x: -3px;
+}
+
+/* Nue hata / whatever */
+#chat-messages .id-3927729 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/d2b8z8P.png'); 
+        background-size:        cover; 
 }
 
 /* Kirby */
@@ -96,26 +116,6 @@
         background-image:       url('http://i.imgur.com/6jtg0uD.png');
         background-size:        cover;
 }*/
-
-/* TheBanHammer */
-#chat-messages .id-3620521 .badge-box
-{
-        border-color: #00a1ff;
-        border-width: 1px;
-        border-style: solid;
-}
-#chat-messages .id-3620521 .badge-box i.bdg
-{
-        /* Old Badge
-        background-image:       url('https://i.imgur.com/jdadHuj.png');
-        background-size:        cover;
-        */
-        
-        background-image: url('https://i.imgur.com/EOuLASw.gif');
-        background-size: cover;
-        background-color: #404040;
-        background-position-x: -3px;
-}
 
 /* Allo */
 /*#chat-messages .id-4444591 .badge-box i.bdg
@@ -206,7 +206,7 @@
 }
 
 /* BULZAI */
-#chat-messages .id-8067032 .badge-box i.bdg
+/*#chat-messages .id-8067032 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/fGKfZDv.gif');
         background-size:        cover;
@@ -214,7 +214,7 @@
 #chat-messages .id-8067032 .badge-box
 {
         border: 1px solid yellow;
-}
+}*/
 
 /* Mirajane */
 #chat-messages .id-3548097 .badge-box i.bdg
@@ -223,6 +223,12 @@
         background-size:        cover; 
 }
 
+/* DREKEN */
+/*#chat-messages .id-3632408 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/TU9MSYQ.gif');
+        background-size:        cover;
+}*/
 
 /* NON-STAFF */
 
@@ -230,13 +236,6 @@
 #chat-messages .id-3675504 .badge-box i.bdg
 {
         background-image:       url('https://cdn.radiant.dj/rcs/emotes/img/orilurk.png');
-        background-size:        cover;
-}
-
-/* DREKEN */
-#chat-messages .id-3632408 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/TU9MSYQ.gif');
         background-size:        cover;
 }
 
