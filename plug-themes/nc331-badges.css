@@ -267,7 +267,16 @@
         background-image:       url('https://i.imgur.com/xV0HAgS.jpg');
         background-size:        cover; 
 }
-
+/* MysterHik */
+#chat-messages .id-13553790 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/fyVfOCn.jpg');
+        background-size:        cover; 
+}
+#chat-messages .id-13553790 .badge-box
+{
+        border: 1px solid #0072ff;
+}
 
 /* NON-STAFF */
 
@@ -277,5 +286,4 @@
         background-image:       url('https://cdn.radiant.dj/rcs/emotes/img/orilurk.png');
         background-size:        cover;
 }
-
 
