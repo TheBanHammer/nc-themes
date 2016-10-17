@@ -261,21 +261,41 @@
         background-image:       url('http://i.imgur.com/MfESUYy.jpg');
         background-size:        cover; 
 }
+
 /* bulzai */
 #chat-messages .id-8067032 .badge-box i.bdg
 {
         background-image:       url('https://i.imgur.com/xV0HAgS.jpg');
         background-size:        cover; 
 }
+
 /* MysterHik */
 #chat-messages .id-13553790 .badge-box i.bdg
 {
-        background-image:       url('http://i.imgur.com/fyVfOCn.jpg');
+        background-image:       url('https://i.imgur.com/fyVfOCn.jpg');
         background-size:        cover; 
 }
 #chat-messages .id-13553790 .badge-box
 {
-        border: 1px solid #0072ff;
+        border: 2px solid #0072ff;
+}
+
+/* TOFU :D */
+#chat-messages .id-15006213 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/2axp7n1.jpg');
+        background-size:        cover; 
+}
+#chat-messages .id-15006213 .badge-box
+{
+        border: 2px solid #574171;
+}
+
+/* AZR */
+#chat-messages .id-15020104 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/ECdDStB.png');
+        background-size:        cover; 
 }
 
 /* NON-STAFF */
