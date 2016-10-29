@@ -21,7 +21,7 @@
 /* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
-        background-image:       url('https://i.imgur.com/DN9QbKe.gif');  /*http://i.imgur.com/flFtDDn.png */
+        background-image:       url('https://i.imgur.com/mLFgHQr.gif');  /*https://i.imgur.com/DN9QbKe.gif */
         background-size:        cover; 
         background-position:    initial;
         
@@ -298,6 +298,17 @@
         background-size:        cover; 
 }
 
+/* AnimeDev */
+#chat-messages .id-13446247 .badge-box i.bdg
+{
+        background-image:       url('http://animedev.azurewebsites.net/Plug/badge.png');
+        background-size:        cover; 
+}
+#chat-messages .id-13446247 .badge-box
+{
+        box-shadow: 0px 0px 5px #5500ff;
+}
+
 /* NON-STAFF */
 
 /* Origin */
@@ -306,4 +317,5 @@
         background-image:       url('https://cdn.radiant.dj/rcs/emotes/img/orilurk.png');
         background-size:        cover;
 }
+
 
