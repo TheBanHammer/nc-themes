@@ -767,6 +767,45 @@
         /*background:             linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;*/
 }
 
+/* Footer Bar Flicker & Animation Fixes */
+#footer-user .buttons .button
+{
+    /* If you inspect the footer buttons, there is a 1px black inset which causes flickering when hover
+       animations occur, this removes the inset which fixes flickering on Chrome & Firefox. */
+    -webkit-box-shadow: inset 0 0 !important;
+    -moz-box-shadow:    inset 0 0 !important;
+    -o-box-shadow:      inset 0 0 !important;
+    box-shadow:         inset 0 0 !important;
+}
+
+/* After fixing the inset, the color of each object gets the body's default grey,
+   so we are matching the colors here to the animation colors which will keep 
+   the animation colored properly and not transitioning from the default grey. */
+#footer-user .inventory
+{
+        color: rgba(146, 56, 146, 1) !important;
+} 
+
+#footer-user .badge
+{
+        color: rgba(135, 68, 156, 1) !important;
+} 
+
+#footer-user .store
+{
+        color: rgba(120, 84, 169, 1) !important;
+} 
+
+#footer-user .profile
+{
+        color: rgba(98, 108, 188, 1) !important;
+} 
+
+#footer-user .settings
+{
+        color: rgba(84, 123, 201, 1) !important;
+} 
+
 /* Footer Buttons Static */
 #footer-user .inventory,
 #footer-user .badge,
