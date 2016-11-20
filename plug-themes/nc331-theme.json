@@ -25,15 +25,15 @@
         "user":                 null
     },
     "images": {
-        "background":           null,
+        "background":           "https://cdn.bssecure.net/nc-themes/img/adGS_sBG_Theme.png",
         "playback":             null,
-        "admin":                null,
-        "ambassador":           null,
-        "host":                 "https://i.imgur.com/uvkSrZm.png",
-        "cohost":               "https://i.imgur.com/Qhh7mps.png",
-        "manager":              "https://i.imgur.com/Ia0XNqc.png",
-        "bouncer":              "https://i.imgur.com/aulbyGa.png",
-        "rdj":                  "https://i.imgur.com/F6gPcXh.png",
+        "admin":                "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_Admin.png",
+        "ambassador":           "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_BA.png",
+        "host":                 "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_Host.png",
+        "cohost":               "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_CoHost.png",
+        "manager":              "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_Manager.png",
+        "bouncer":              "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_Bouncer.png",
+        "rdj":                  "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_RDJ.png",
         "subscriber":           null
     },
     "autocomplete": [],
