@@ -348,10 +348,11 @@
 /*HEADER*/
 /********/
 
-/* Friend Requests */
-#friends-button .request-count
+/* Friend Requests/Profile Notifications */
+#friends-button .request-count, #footer-user .buttons .button.notify .count
 {
     background-color: rgba(146, 56, 146, 1) !important;
+    color: white;
 }
 
 /* Override RCS Created Styling */
