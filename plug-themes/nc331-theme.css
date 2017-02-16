@@ -2158,6 +2158,21 @@
     background-position: 3px 1px !important;
 }
 
+/*SaltySub. Aka. Morten*/
+
+.cm.role-dj.id-24546090 .msg .from .un, #user-lists .list .role-dj.id-24546090 .name 
+{
+    color: #FF8F00 !important;
+}
+
+.id-24546090 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-24546090 .icon-chat-dj
+{
+    background: url("https://i.imgur.com/tmwo7Ps.png") !important;
+    background-size: 12px !important;
+    background-repeat: no-repeat !important;
+    background-position: 3px 1px !important;
+}
+
 
 /*******/
 /*ROLES*/
