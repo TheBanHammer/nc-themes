@@ -28,7 +28,7 @@
 }
 
 /* TheBanHammer */
-#chat-messages .id-3620521 .badge-box, #chat-messages .id-14182548 .badge-box
+/*#chat-messages .id-3620521 .badge-box, #chat-messages .id-14182548 .badge-box
 {
         border-color: #00a1ff;
         border-width: 1px;
@@ -36,16 +36,11 @@
 }
 #chat-messages .id-3620521 .badge-box i.bdg, #chat-messages .id-14182548 .badge-box i.bdg
 {
-        /* Old Badge
-        background-image:       url('https://i.imgur.com/jdadHuj.png');
-        background-size:        cover;
-        */
-        
         background-image: url('https://i.imgur.com/EOuLASw.gif');
         background-size: cover;
         background-color: #404040;
         background-position-x: -3px;
-}
+}*/
 
 /* Nue hata / whatever */
 #chat-messages .id-3927729 .badge-box i.bdg
