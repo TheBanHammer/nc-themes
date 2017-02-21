@@ -1998,6 +1998,7 @@
 {
         /* Rin's eye burning blue-ultra-violet. */
         /* color:                   rgba(125, 85, 255, 1) !important; */
+	color: #ac76ff !important;
 }
 
 [data-cid^="4396449"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-4396449 .name {
