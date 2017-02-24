@@ -1102,6 +1102,20 @@
          opacity:               1 !important;
 }
 
+/*user rollover rank color*/
+#user-rollover.is-staff .info .role .icon.icon-chat-dj + span {
+    color: #547bc9 !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-bouncer + span {
+    color: #626cbc !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-manager + span {
+    color: #7854a9 !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-host + span {
+    color: #87449c !important;
+}
+
 /**********/
 /*PLAYLIST*/
 /**********/
@@ -1886,6 +1900,13 @@
         background:             rgba(50, 60, 105, 1);
 }
 
+/* APP-LEFT */
+
+.app-left {
+    left: -3px !important;
+    border-right: 3px solid rgba(42, 29, 64, 1);
+}
+
 /* EXTRA */
 
 #footer-user .back
@@ -1925,6 +1946,27 @@
 {
         background:             rgba(45, 27, 97, 0.1) !important;
 }
+/*gradients for menus*/
+#rcs-menu {
+    background: -webkit-linear-gradient(top, rgb(8, 2, 18) 0%,rgba(2,0,6,1) 100%);
+}
+
+#user-lists, #waitlist {
+    background: -webkit-linear-gradient(top, rgb(8, 2, 18) 0%,rgba(2,0,6,1) 100%);
+}
+
+.app-right .friends {
+    background: -webkit-linear-gradient(top, rgb(8, 2, 18) 0%,rgba(2,0,6,1) 100%);
+}
+
+#waitlist .list .user {
+    background: none;
+}
+
+#user-lists .list.staff .group {
+    background: rgb(3, 0, 7) !important;
+}
+
 
 /***************/
 /*NAME STYLINGS*/
@@ -2225,4 +2267,30 @@
 .icon-chat-host 
 {
     background: url("http://i.imgur.com/uvkSrZm.png");
+}
+
+/* According Colors for the-user-profile role names */
+.left .info .role .icon.icon-chat-silver-subscriber + span {
+    color: #8694b2 !important;
+}
+.left .info .role .icon.icon-chat-subscriber + span {
+    color: #c59840 !important;
+}
+.left .info .role .icon.icon-chat-dj + span {
+    color: #547bc9 !important;
+}
+.left .info .role .icon.icon-chat-bouncer + span {
+    color: #626cbc !important;
+}
+.left .info .role .icon.icon-chat-manager + span {
+    color: #7854a9 !important;
+}
+.left .info .role .icon.icon-chat-host + span {
+    color: #87449c !important;
+}
+.left .info .role .icon.icon-chat-ambassador + span {
+    color: #89be6c !important;
+}
+.left .info .role .icon.icon-chat-admin + span {
+    color: blue;
 }
