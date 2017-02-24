@@ -2001,9 +2001,22 @@
 	color: #ac76ff !important;
 }
 
-[data-cid^="4396449"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-4396449 .name {
+[data-cid^="4396449"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-4396449 .name 
+{
         color: rgb(0, 0, 0) !important;
         text-shadow: 0px 0px 1px #00ff08, 0px 0px 5px #4bff00, 2px 2px 10px #00ff08 !important;
+}
+
+/* Javi */
+[data-cid^="6213573"].cm .msg .from .un, #user-lists .list.room .role-manager.id-6213573 .name 
+{
+        color: #ff0033 !important;
+}
+
+/* Javi's Alt */
+[data-cid^="6361546"].cm .msg .from .un, #user-lists .list.room .role-manager.id-6361546 .name 
+{
+        color: #ff0033 !important;
 }
 
 
