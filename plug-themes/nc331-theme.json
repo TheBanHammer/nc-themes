@@ -25,7 +25,7 @@
         "user":                 null
     },
     "images": {
-        "background":           "https://cdn.bssecure.net/nc-themes/img/adGS_sBG_Theme.png",
+        "background":           null,
         "playback":             null,
         "admin":                "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_Admin.png",
         "ambassador":           "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_BA.png",
