@@ -2236,7 +2236,7 @@
 /* greySynapse */
 .cm.role-dj.id-4107431 .msg .from .un, #user-lists .list .role-dj.id-4107431 .name 
 {
-    color: #FFBA15 !important;
+    color: #89be6c !important; /* This is the green BA color, not the gold one used in the other VIPs. */
 }
 
 .id-4107431 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-4107431 .icon-chat-dj
