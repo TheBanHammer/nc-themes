@@ -2181,19 +2181,6 @@
     background-repeat: no-repeat !important;
 }
 
-/*DJ Yazora*/
-
-.cm.role-dj.id-5025604 .msg .from .un, #user-lists .list .role-dj.id-5025604 .name 
-{
-    color: #FFBA15 !important;
-}
-
-.id-5025604 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-5025604 .icon-chat-dj
-{
-    background: url("https://i.imgur.com/aBaTvdv.png") !important;
-    background-repeat: no-repeat !important;
-}
-
 /*Snaken*/
 
 .cm.role-dj.id-3757968 .msg .from .un, #user-lists .list .role-dj.id-3757968 .name 
