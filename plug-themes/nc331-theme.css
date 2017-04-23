@@ -2207,14 +2207,13 @@
     background-repeat: no-repeat !important;
 }
 
-/*SaltySub. Aka. Morten*/
-
-.cm.role-dj.id-24546090 .msg .from .un, #user-lists .list .role-dj.id-24546090 .name 
+/* Morten */
+.cm.role-dj.id-4391963 .msg .from .un, #user-lists .list .role-dj.id-4391963 .name 
 {
     color: #FFBA15 !important;
 }
 
-.id-24546090 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-24546090 .icon-chat-dj
+.id-4391963 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-4391963 .icon-chat-dj
 {
     background: url("https://i.imgur.com/aBaTvdv.png") !important;
     background-repeat: no-repeat !important;
