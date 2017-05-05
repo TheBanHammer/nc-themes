@@ -2005,12 +2005,6 @@
         color:                   rgba(230, 122, 227, 1) !important;
 } */
 
-/* Dyll / Erio */
-[data-cid^="5762084"].cm .msg .from .un, #user-lists .list.room .role-cohost.id-5762084 .name
-{
-        color:                  rgba(22, 196, 228, 1) !important ;
-}
-
 /* TBH */
 [data-cid^="3620521"].cm .msg .from .un, #user-lists .list.room .user.role-cohost.id-3620521 .name
 {
@@ -2055,12 +2049,6 @@
         /* Rin's eye burning blue-ultra-violet. */
         /* color:                   rgba(125, 85, 255, 1) !important; */
 	color: #ac76ff !important;
-}
-
-[data-cid^="4396449"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-4396449 .name 
-{
-        color: rgb(0, 0, 0) !important;
-        text-shadow: 0px 0px 1px #00ff08, 0px 0px 5px #4bff00, 2px 2px 10px #00ff08 !important;
 }
 
 /* Javi */ /*
@@ -2217,6 +2205,24 @@
 {
     background: url("https://i.imgur.com/aBaTvdv.png") !important;
     background-repeat: no-repeat !important;
+}
+
+/* Nat */
+.cm.role-dj.id-5059731 .msg .from .un, #user-lists .list .role-dj.id-5059731 .name 
+{
+    color: #FFBA15 !important;
+}
+
+/* Dyl */
+.cm.role-dj.id-5762084F .msg .from .un, #user-lists .list .role-dj.id-5762084 .name 
+{
+    color: #FFBA15 !important;
+}
+
+/* Mikhan */
+.cm.role-dj.id-4396449 .msg .from .un, #user-lists .list .role-dj.id-4396449 .name 
+{
+    color: #FFBA15 !important;
 }
 
 /*******/
