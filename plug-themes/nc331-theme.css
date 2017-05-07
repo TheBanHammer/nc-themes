@@ -1996,7 +1996,10 @@
 [data-cid^="4105479"].cm .msg .from .un, #user-lists .list.room .role-host.id-4105479 .name
 {
         /* Orange */
-        color:                   rgba(236, 126, 51, 1) !important;
+       /* color:                   rgba(236, 126, 51, 1) !important; */
+	-webkit-animation:         trgrainbow 10s infinite;
+}
+@-webkit-keyframes trgrainbow{2%{color: #ec7e33;}80%{color: #ec7e33;}82%{color: #ffb400;}84%{color: #ffff00;}86%{color: #72ff00;}88%{color: #00ff85;}90%{color: #00ffe3;}92%{color: #008dff;}94%{color: #2f00ff;}96%{color: #d400ff;}98%{color: #ff00a9;}100%{color: #ff0010;}
 }
 
 /* Kirby */
