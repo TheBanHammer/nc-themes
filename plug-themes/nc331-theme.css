@@ -2063,6 +2063,11 @@
         color: #ffd800 !important;
 }
 
+/* WaterClaw */
+[data-cid^="3675567"].cm .msg .from .un, #user-lists .list.room .role-manager.id-3675567 .name 
+{
+        color: #1A8080 !important;
+}
 
 /* Non - Staff */
 
