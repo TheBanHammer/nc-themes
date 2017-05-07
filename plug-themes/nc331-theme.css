@@ -2215,6 +2215,20 @@
     background-repeat: no-repeat !important;
 }
 
+/* TBH */
+
+.cm.role-dj.id-3620521 .msg .from .un, #user-lists .list .role-dj.id-3620521 .name 
+{
+    color: #4bc906 !important;
+    text-shadow: 0px 0px 1px #4256f4, 0px 0px 5px #4256f4, 2px 2px 10px #4256f4 !important;
+}
+
+.id-3620521 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-3620521 .icon-chat-dj
+{
+    background: url("https://i.imgur.com/aBaTvdv.png") !important;
+    background-repeat: no-repeat !important;
+}
+
 /* Nat */
 .cm.role-dj.id-5059731 .msg .from .un, #user-lists .list .role-dj.id-5059731 .name 
 {
@@ -2229,7 +2243,7 @@
 /* Dyl */
 .cm.role-dj.id-5762084 .msg .from .un, #user-lists .list .role-dj.id-5762084 .name 
 {
-    color: #56EBF4 !important;
+    color: #FFBA15 !important;
 }
 .id-5762084 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-5762084 .icon-chat-dj
 {
