@@ -2069,6 +2069,12 @@
         color: #1A8080 !important;
 }
 
+/* PixelBreeze */
+[data-cid^="196490"].cm .msg .from .un, #user-lists .list.room .role-manager.id-196490 .name 
+{
+        color: #3099ff !important;
+}
+
 /* Non - Staff */
 
 /*******************/
