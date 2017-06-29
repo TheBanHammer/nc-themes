@@ -21,7 +21,7 @@
 /* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
-        background-image:       url('https://i.imgur.com/DN9QbKe.gif');  /*https://i.imgur.com/DN9QbKe.gif */
+        background-image:       url('https://i.imgur.com/DN9QbKe.gif') !important;  /*https://i.imgur.com/DN9QbKe.gif */
         background-size:        cover; 
         background-position:    initial;
         
