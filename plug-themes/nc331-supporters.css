@@ -1,1 +1,138 @@
+#user-rollover .meta{
+   min-height: 126px;
+}
+/*
+https://i.imgur.com/nx7YxJV.png GOLD
+https://i.imgur.com/fRFJ9D1.png SILVER
+https://i.imgur.com/WgchsDz.png BRONZE
+*/
+
+																							/*****DAPHNE-CHAN PREMIUM SUPPORTER*****/
+#chat [data-cid^='5383341-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5383341 .meta:before { /*user rollover supporter image*/
+    content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5383341 .meta:after { /*user rollover supporter info*/
+    content: 'Premium Supporter';
+    color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+#user-rollover.id-5383341 .meta{
+height: 170px !important;
+}
+#user-rollover.id-5383341 .meta #isSpecial{
+    top: 145px !important;
+}
+#user-rollover.id-5383341 .meta #isSpecialtxt {
+    top: 143px !important;
+}
+/*Special colour*/
+#chat [data-cid^="5383341"] .un {
+    color: #fc0af2 !important;
+    position: relative;
+}
+
+
+																										/*****RIN GOLD SUPPORTER*****/ 
+#chat [data-cid^='5653326-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5653326 .meta:before { /*user rollover supporter image*/
+    content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5653326 .meta:after { /*user rollover supporter info*/
+    content: 'Gold Supporter';
+    color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+
+
+																										/*****GREYSYNAPSE GOLD SUPPORTER*****/
+#chat [data-cid^='4107431-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-4107431 .meta:before { /*user rollover supporter image*/
+    content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-4107431 .meta:after { /*user rollover supporter info*/
+    content: 'Gold Supporter';
+    color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+#user-rollover.id-4107431 .meta{
+height: 170px !important;
+}
+#user-rollover.id-4107431 .meta #isSpecial{
+    top: 145px !important;
+}
+#user-rollover.id-4107431 .meta #isSpecialtxt {
+    top: 143px !important;
+}
+
+
+																										/*****WATERCLAW GOLD SUPPORTER*****/ 
+#chat [data-cid^='3675567-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-3675567 .meta:before { /*user rollover supporter image*/
+    content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-3675567 .meta:after { /*user rollover supporter info*/
+    content: 'Gold Supporter';
+    color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+
+
+
+																										/*****WINDWALK SILVER SUPPORTER*****/
+#chat [data-cid^='4881577-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/fRFJ9D1.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-4881577 .meta:before { /*user rollover supporter image*/
+    content: url("https://i.imgur.com/fRFJ9D1.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-4881577 .meta:after { /*user rollover supporter info*/
+    content: 'Silver Supporter';
+    color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+
+
+																										/*****TOFU SILVER SUPPORTER*****/
+#chat [data-cid^='15006213-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/fRFJ9D1.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-15006213 .meta:before { /*user rollover supporter image*/
+    content: url("https://i.imgur.com/fRFJ9D1.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-15006213 .meta:after { /*user rollover supporter info*/
+    content: 'Silver Supporter';
+    color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+#user-rollover.id-15006213 .meta{
+height: 170px !important;
+}
+#user-rollover.id-15006213 .meta #isSpecial{
+    top: 145px !important;
+}
+#user-rollover.id-15006213 .meta #isSpecialtxt {
+  top: 143px !important;
+}
+
 
