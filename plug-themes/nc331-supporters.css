@@ -1,7 +1,7 @@
 #user-rollover .meta{
    	min-height: 126px;
 }
-#user-rollover .meta .subscriber {
+#user-rollover .meta.subscriber {
 	min-height: 146px;
 }
 /*
