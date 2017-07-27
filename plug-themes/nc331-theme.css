@@ -184,6 +184,7 @@
 /* User-Rollover User Role [Promotion], User Ban, & User Mute, & Gifting Dialog */
 #dialog-user-role .dialog-frame,
 #dialog-ban-user .dialog-frame,
+#dialog-waitlist-ban-user .dialog-frame,
 #dialog-mute-user .dialog-frame,
 #dialog-gift-send .dialog-frame
 {
@@ -192,6 +193,7 @@
 
 #dialog-user-role,
 #dialog-ban-user,
+#dialog-waitlist-ban-user,
 #dialog-mute-user,
 #dialog-gift-send
 {
@@ -209,6 +211,12 @@
 #dialog-ban-user .dialog-body .duration .toggle.forever,
 #dialog-ban-user .dialog-body ul li:nth-child(n+1),
 #dialog-ban-user .dialog-body li .radio,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.15mins,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.hour,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.day,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.forever,
+#dialog-waitlist-ban-user .dialog-body ul li:nth-child(n+1),
+#dialog-waitlist-ban-user .dialog-body li .radio,
 #dialog-mute-user .dialog-body .duration .toggle.short,
 #dialog-mute-user .dialog-body .duration .toggle.medium,
 #dialog-mute-user .dialog-body .duration .toggle.long,
@@ -233,6 +241,12 @@
 #dialog-ban-user .dialog-body .duration:hover > .toggle.forever,
 #dialog-ban-user .dialog-body ul:hover > li:nth-child(n+1),
 #dialog-ban-user .dialog-body li .radio,
+#dialog-waitlist-ban-user .dialog-body .duration:hover > .toggle.15mins,
+#dialog-waitlist-ban-user .dialog-body .duration:hover > .toggle.hour,
+#dialog-waitlist-ban-user .dialog-body .duration:hover > .toggle.day,
+#dialog-waitlist-ban-user .dialog-body .duration:hover > .toggle.forever,
+#dialog-waitlist-ban-user .dialog-body ul:hover li:nth-child(n+1),
+#dialog-waitlist-ban-user .dialog-body li .radio,
 #dialog-mute-user .dialog-body .duration:hover > .toggle.short,
 #dialog-mute-user .dialog-body .duration:hover > .toggle.medium,
 #dialog-mute-user .dialog-body .duration:hover > .toggle.long,
@@ -248,6 +262,12 @@
 #dialog-ban-user .dialog-body .duration .toggle.forever:hover,
 #dialog-ban-user .dialog-body ul li:nth-child(n+1):hover,
 #dialog-ban-user .dialog-body li .radio:hover,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.15mins:hover,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.hour:hover,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.day:hover,
+#dialog-waitlist-ban-user .dialog-body .duration .toggle.forever:hover,
+#dialog-waitlist-ban-user .dialog-body ul li:nth-child(n+1),
+#dialog-waitlist-ban-user .dialog-body li .radio,
 #dialog-mute-user .dialog-body .duration .toggle.short:hover,
 #dialog-mute-user .dialog-body .duration .toggle.medium:hover,
 #dialog-mute-user .dialog-body .duration .toggle.long:hover,
@@ -261,6 +281,8 @@
 #dialog-user-role .dialog-frame .button.submit,
 #dialog-ban-user .dialog-frame .button.cancel,
 #dialog-ban-user .dialog-frame .button.submit,
+#dialog-waitlist-ban-user .dialog-frame .button.cancel,
+#dialog-waitlist-ban-user .dialog-frame .button.submit,
 #dialog-mute-user .dialog-frame .button.submit,
 #dialog-mute-user .dialog-frame .button.cancel,
 #dialog-gift-send .dialog-frame .button.submit,
@@ -278,6 +300,8 @@
 #dialog-user-role .dialog-frame:hover > .button.submit,
 #dialog-ban-user .dialog-frame:hover > .button.cancel,
 #dialog-ban-user .dialog-frame:hover > .button.submit,
+#dialog-waitlist-ban-user .dialog-frame:hover > .button.cancel,
+#dialog-waitlist-ban-user .dialog-frame:hover > .button.submit,
 #dialog-mute-user .dialog-frame:hover > .button.cancel,
 #dialog-mute-user .dialog-frame:hover > .button.submit,
 #dialog-gift-send .dialog-frame:hover > .button.submit,
@@ -290,6 +314,8 @@
 #dialog-user-role .dialog-frame .button.submit:hover,
 #dialog-ban-user .dialog-frame .button.cancel:hover,
 #dialog-ban-user .dialog-frame .button.submit:hover,
+#dialog-waitlist-ban-user .dialog-frame .button.cancel:hover,
+#dialog-waitlist-ban-user .dialog-frame .button.submit:hover,
 #dialog-mute-user .dialog-frame .button.cancel:hover,
 #dialog-mute-user .dialog-frame .button.submit:hover,
 #dialog-gift-send .dialog-frame .button.submit:hover,
@@ -300,6 +326,7 @@
 
 #dialog-user-role .dialog-frame .button.submit:hover,
 #dialog-ban-user .dialog-frame .button.submit:hover,
+#dialog-waitlist-ban-user .dialog-frame .button.submit:hover,
 #dialog-mute-user .dialog-frame .button.submit:hover,
 #dialog-gift-send .dialog-frame .button.submit:hover
 {
@@ -311,6 +338,7 @@
 
 #dialog-user-role .dialog-frame .button.cancel:hover,
 #dialog-ban-user .dialog-frame .button.cancel:hover,
+#dialog-waitlist-ban-user .dialog-frame .button.cancel:hover,
 #dialog-mute-user .dialog-frame .button.cancel:hover,
 #dialog-gift-send .dialog-frame .button.cancel:hover
 {
@@ -648,6 +676,7 @@
 #user-lists .header .button.room i,
 #user-lists .header .button.staff,
 #user-lists .header .button.bans,
+#user-lists .header .button.waitlist-bans,
 #user-lists .header .button.mutes,
 #user-lists .header .button.ignored
 {        
@@ -662,6 +691,7 @@
 #user-lists .header:hover > .button.room i,
 #user-lists .header:hover > .button.staff,
 #user-lists .header:hover > .button.bans,
+#user-lists .header:hover > .button.waitlist-bans,
 #user-lists .header:hover > .button.mutes,
 #user-lists .header:hover > .button.ignored
 {        
@@ -671,6 +701,7 @@
 #user-lists .header .button.room i:hover,
 #user-lists .header .button.staff:hover,
 #user-lists .header .button.bans:hover,
+#user-lists .header .button.waitlist-bans:hover,
 #user-lists .header .button.mutes:hover,
 #user-lists .header .button.ignored:hover
 {        
@@ -1053,6 +1084,7 @@
 #user-rollover .actions .ignore,
 #user-rollover .actions .mention,
 #user-rollover .actions .mod-ban,
+#user-rollover .actions .mod-waitlist-ban,
 #user-rollover .actions .mod-dj,
 #user-rollover .actions .mod-mute,
 #user-rollover .actions .mod-staff,
@@ -1074,6 +1106,7 @@
 #user-rollover:hover > .actions .ignore,
 #user-rollover:hover > .actions .mention,
 #user-rollover:hover > .actions .mod-ban,
+#user-rollover:hover > .actions .mod-waitlist-ban,
 #user-rollover:hover > .actions .mod-dj,
 #user-rollover:hover > .actions .mod-mute,
 #user-rollover:hover > .actions .mod-staff,
@@ -1088,6 +1121,7 @@
 #user-rollover .actions .ignore:hover,
 #user-rollover .actions .mention:hover,
 #user-rollover .actions .mod-ban:hover,
+#user-rollover .actions .mod-waitlist-ban:hover,
 #user-rollover .actions .mod-dj:hover,
 #user-rollover .actions .mod-mute:hover,
 #user-rollover .actions .mod-staff:hover,
