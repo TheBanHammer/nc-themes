@@ -10,10 +10,21 @@ https://i.imgur.com/fRFJ9D1.png SILVER
 https://i.imgur.com/WgchsDz.png BRONZE
 */
 
+#chat [data-cid^='5383341-'] .un, /*Daphne*/
+#chat [data-cid^='5653326-'] .un, /*Rin*/
+#chat [data-cid^='4881577-'] .un, /*Windwalk*/
+#chat [data-cid^='4712909-'] .un, /*Endernator*/
+#chat [data-cid^='3675567-'] .un, /*WaterClaw*/
+#chat [data-cid^='5843058-'] .un  /*Nai-Chan*/
+{
+    top: -2px !important;
+    position: relative;
+}
+
 /*****DAPHNE-CHAN PREMIUM SUPPORTER*****/
 #chat [data-cid^='5383341-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-5383341 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
@@ -43,7 +54,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****RIN GOLD SUPPORTER*****/ 
 #chat [data-cid^='5653326-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-5653326 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
@@ -58,7 +69,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****WATERCLAW GOLD SUPPORTER*****/ 
 #chat [data-cid^='3675567-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-3675567 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
@@ -75,7 +86,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****WINDWALK SILVER SUPPORTER*****/
 #chat [data-cid^='4881577-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-4881577 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/fRFJ9D1.png");	
@@ -100,7 +111,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****TOFU SILVER SUPPORTER*****/
 #chat [data-cid^='15006213-'] .un:before { /*supporter badge next to name in chat*/ 4712909
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-15006213 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/fRFJ9D1.png");	
@@ -125,7 +136,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****ENDERNATOR SILVER SUPPORTER*****/
 #chat [data-cid^='4712909-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-4712909 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/fRFJ9D1.png");	
@@ -141,7 +152,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****NAI-CHAN SILVER SUPPORTER*****/
 #chat [data-cid^='5843058-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
-		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-5843058 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/fRFJ9D1.png");	
