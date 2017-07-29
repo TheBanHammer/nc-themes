@@ -15,7 +15,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='4881577-'] .un, /*Windwalk*/
 #chat [data-cid^='4712909-'] .un, /*Endernator*/
 #chat [data-cid^='3675567-'] .un, /*WaterClaw*/
-#chat [data-cid^='5843058-'] .un  /*Nai-Chan*/
+#chat [data-cid^='5843058-'] .un, /*Nai-Chan*/
+#chat [data-cid^='6355338-'] .un  /*Minymind*/
 {
     top: -2px !important;
     position: relative;
@@ -66,7 +67,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 }
 /* If user also has a RCS badge */
 
-/*****WATERCLAW GOLD SUPPORTER*****/ 
+/*****WATERCLAW GOLD SUPPORTER*****/ 6355338
 #chat [data-cid^='3675567-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
 		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
@@ -76,6 +77,22 @@ https://i.imgur.com/WgchsDz.png BRONZE
 		top: 120px;	left: 109px; position: absolute;
 }
 #user-rollover.id-3675567 .meta:after { /*user rollover supporter info*/
+    		content: 'Gold Supporter';
+   		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+
+
+/*****MINYMIND GOLD SUPPORTER*****/
+#chat [data-cid^='6355338-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-6355338 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-6355338 .meta:after { /*user rollover supporter info*/
     		content: 'Gold Supporter';
    		color: #808691; position: absolute; top: 118px; left: 130px;
 }
