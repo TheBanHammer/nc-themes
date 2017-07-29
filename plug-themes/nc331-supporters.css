@@ -10,7 +10,7 @@ https://i.imgur.com/fRFJ9D1.png SILVER
 https://i.imgur.com/WgchsDz.png BRONZE
 */
 
-																							/*****DAPHNE-CHAN PREMIUM SUPPORTER*****/
+/*****DAPHNE-CHAN PREMIUM SUPPORTER*****/
 #chat [data-cid^='5383341-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
 		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
@@ -40,7 +40,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 }
 
 
-																										/*****RIN GOLD SUPPORTER*****/ 
+/*****RIN GOLD SUPPORTER*****/ 
 #chat [data-cid^='5653326-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
 		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
@@ -54,7 +54,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
     		color: #808691; position: absolute; top: 118px; left: 130px;
 }
 /* If user also has a RCS badge */
-																										/*****WATERCLAW GOLD SUPPORTER*****/ 
+
+/*****WATERCLAW GOLD SUPPORTER*****/ 
 #chat [data-cid^='3675567-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
 		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
@@ -71,7 +72,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 
 
 
-																										/*****WINDWALK SILVER SUPPORTER*****/
+/*****WINDWALK SILVER SUPPORTER*****/
 #chat [data-cid^='4881577-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
 		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
@@ -84,11 +85,20 @@ https://i.imgur.com/WgchsDz.png BRONZE
     		content: 'Silver Supporter';
     		color: #808691; position: absolute; top: 118px; left: 130px;
 }
+#user-rollover.id-4881577 .meta{
+		height: 170px !important;
+}
+#user-rollover.id-4881577 .meta #isSpecial{
+    		top: 145px !important;
+}
+#user-rollover.id-4881577 .meta #isSpecialtxt {
+  		top: 143px !important;
+}
 /* If user also has a RCS badge */
 
 
-																										/*****TOFU SILVER SUPPORTER*****/
-#chat [data-cid^='15006213-'] .un:before { /*supporter badge next to name in chat*/
+/*****TOFU SILVER SUPPORTER*****/
+#chat [data-cid^='15006213-'] .un:before { /*supporter badge next to name in chat*/ 4712909
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
 		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
@@ -112,3 +122,33 @@ https://i.imgur.com/WgchsDz.png BRONZE
 }
 
 
+/*****ENDERNATOR SILVER SUPPORTER*****/
+#chat [data-cid^='4712909-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/fRFJ9D1.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-4712909 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/fRFJ9D1.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-4712909 .meta:after { /*user rollover supporter info*/
+    		content: 'Silver Supporter';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+
+
+/*****NAI-CHAN SILVER SUPPORTER*****/
+#chat [data-cid^='5843058-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/fRFJ9D1.png"); 
+		top: 3px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5843058 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/fRFJ9D1.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5843058 .meta:after { /*user rollover supporter info*/
+    		content: 'Silver Supporter';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
