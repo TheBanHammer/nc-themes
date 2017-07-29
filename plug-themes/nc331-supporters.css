@@ -10,6 +10,7 @@ https://i.imgur.com/fRFJ9D1.png SILVER
 https://i.imgur.com/WgchsDz.png BRONZE
 */
 
+/*formatting fixes*/
 #chat [data-cid^='5383341-'] .un, /*Daphne*/
 #chat [data-cid^='5653326-'] .un, /*Rin*/
 #chat [data-cid^='4881577-'] .un, /*Windwalk*/
@@ -20,6 +21,16 @@ https://i.imgur.com/WgchsDz.png BRONZE
 {
     top: -2px !important;
     position: relative;
+}
+#chat [data-cid^='5383341-'] .rcs-user-info,
+#chat [data-cid^='5653326-'] .rcs-user-info,
+#chat [data-cid^='4881577-'] .rcs-user-info,
+#chat [data-cid^='4712909-'] .rcs-user-info,
+#chat [data-cid^='3675567-'] .rcs-user-info,
+#chat [data-cid^='5843058-'] .rcs-user-info,
+#chat [data-cid^='6355338-'] .rcs-user-info {
+    position: relative !important;
+    top: -2px !important;
 }
 
 /*****DAPHNE-CHAN PREMIUM SUPPORTER*****/
