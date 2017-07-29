@@ -2304,6 +2304,17 @@
     background-repeat: no-repeat !important;
 }
 
+/* WindWalk */
+.cm.role-dj.id-4881577 .msg .from .un, #user-lists .list .role-dj.id-4396449 .name 
+{
+    color: #FFBA15 !important;
+}
+.id-4881577 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-4396449 .icon-chat-dj
+{
+    background: url("https://i.imgur.com/aBaTvdv.png") !important;
+    background-repeat: no-repeat !important;
+}
+
 /*******/
 /*ROLES*/
 /*******/
