@@ -17,7 +17,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='4712909-'] .un, /*Endernator*/
 #chat [data-cid^='3675567-'] .un, /*WaterClaw*/
 #chat [data-cid^='5843058-'] .un, /*Nai-Chan*/
-#chat [data-cid^='6355338-'] .un  /*Minymind*/
+#chat [data-cid^='6355338-'] .un, /*Minymind*/
+#chat [data-cid^='15006213-'] .un  /*Tofu*/
 {
     top: -2px !important;
     position: relative;
@@ -28,7 +29,9 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='4712909-'] .rcs-user-info,
 #chat [data-cid^='3675567-'] .rcs-user-info,
 #chat [data-cid^='5843058-'] .rcs-user-info,
+#chat [data-cid^='15006213-'] .rcs-user-info,
 #chat [data-cid^='6355338-'] .rcs-user-info {
+
     position: relative !important;
     top: -2px !important;
 }
