@@ -36,7 +36,7 @@
         "rdj":                  "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_RDJ.png",
         "subscriber":           null
     },
-    "autocomplete": [
+    "autocomplete": {
         "!accept": 0,
         "!afk": 0,
         "!auth": 0,
@@ -139,7 +139,7 @@
         "heroesneverdie": 4,
         "highnoon": 4,
         "rig": 4
-    ],
+    },
     "emotes": {
         "firelenny":                    "https://i.imgur.com/jleilmo.gif",
         "pusheennoodles":               "http://fc07.deviantart.net/fs71/f/2014/359/e/5/pusheen_eating_ramen_by_pikuniku-d8b5irh.gif",
