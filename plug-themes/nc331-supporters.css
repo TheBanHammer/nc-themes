@@ -82,10 +82,6 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /* If user also has a RCS badge */
 
 /*****WATERCLAW GOLD SUPPORTER*****/
-#chat [data-cid^='3675567-'] .un:before { /*supporter badge next to name in chat*/
-		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
-}
 #user-rollover.id-3675567 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
 		top: 120px;	left: 109px; position: absolute;
