@@ -2082,14 +2082,6 @@
         color: rgba(171, 169, 175, 1) !important;
 } 
 
-/* Rin */
-[data-cid^="5653326"].cm .msg .from .un, #user-lists .list.room .role-manager.id-5653326 .name
-{
-        /* Rin's eye burning blue-ultra-violet. */
-        /* color:                   rgba(125, 85, 255, 1) !important; */
-	color: #ac76ff !important;
-}
-
 /* Javi */ /*
 [data-cid^="6213573"].cm .msg .from .un, #user-lists .list.room .role-manager.id-6213573 .name 
 {
@@ -2321,6 +2313,17 @@
     color: #FFBA15 !important;
 }
 .id-3426455 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-4396449 .icon-chat-dj
+{
+    background: url("https://i.imgur.com/aBaTvdv.png") !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Rin 5653326 */
+.cm.role-dj.id-5653326 .msg .from .un, #user-lists .list .role-dj.id-5653326 .name 
+{
+    color: #FFBA15 !important;
+}
+.id-5653326 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-5653326 .icon-chat-dj
 {
     background: url("https://i.imgur.com/aBaTvdv.png") !important;
     background-repeat: no-repeat !important;
