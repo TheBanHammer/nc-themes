@@ -2070,12 +2070,6 @@
     text-shadow: 0px 0px 1px #00a1ff, 0px 0px 5px #1e9bd6, 2px 2px 10px #00c4ff !important;
 }*/
 
-/* Tofu */ 
-[data-cid^="15006213"].cm .msg .from .un, #user-lists .list.room .role-manager.id-15006213 .name
-{
-        color: rgba(190, 0, 0, 1) !important;
-} 
-
 /* greySynapse */ 
 [data-cid^="4107431"].cm .msg .from .un, #user-lists .list.room .role-manager.id-4107431 .name
 {
