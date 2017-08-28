@@ -18,7 +18,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='3675567-'] .un, /*WaterClaw*/
 #chat [data-cid^='5843058-'] .un, /*Nai-Chan*/
 #chat [data-cid^='6355338-'] .un, /*Minymind*/
-#chat [data-cid^='15006213-'] .un  /*Tofu*/
+#chat [data-cid^='15006213-'] .un,  /*Tofu*/
+#chat [data-cid^='6361546-'] .un  /*Javi*/
 {
     top: -2px !important;
     position: relative;
@@ -30,6 +31,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='3675567-'] .rcs-user-info,
 #chat [data-cid^='5843058-'] .rcs-user-info,
 #chat [data-cid^='15006213-'] .rcs-user-info,
+#chat [data-cid^='6361546-'] .rcs-user-info,
 #chat [data-cid^='6355338-'] .rcs-user-info {
 
     position: relative !important;
@@ -108,6 +110,20 @@ https://i.imgur.com/WgchsDz.png BRONZE
 }
 /* If user also has a RCS badge */
 
+/*****JAVI GOLD SUPPORTER*****/ 
+#chat [data-cid^='6361546-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-6361546 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-6361546 .meta:after { /*user rollover supporter info*/
+    		content: 'Gold Supporter';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
 
 
 /*****WINDWALK SILVER SUPPORTER*****/
