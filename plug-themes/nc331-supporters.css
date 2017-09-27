@@ -41,7 +41,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****DAPHNE-CHAN PREMIUM SUPPORTER*****/
 #chat [data-cid^='5383341-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-5383341 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
@@ -71,7 +71,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****RIN GOLD SUPPORTER*****/ 
 #chat [data-cid^='5653326-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-5653326 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
@@ -179,7 +179,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****ENDERNATOR SILVER SUPPORTER*****/
 #chat [data-cid^='4712909-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
-		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-4712909 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/fRFJ9D1.png");	
@@ -190,7 +190,15 @@ https://i.imgur.com/WgchsDz.png BRONZE
     		color: #808691; position: absolute; top: 118px; left: 130px;
 }
 /* If user also has a RCS badge */
-
+#user-rollover.id-4712909 .meta{
+		height: 170px !important;
+}
+#user-rollover.id-4712909 .meta #isSpecial{
+    		top: 145px !important;
+}
+#user-rollover.id-4712909 .meta #isSpecialtxt {
+   	 	top: 143px !important;
+}
 
 /*****NAI-CHAN SILVER SUPPORTER*****/
 #chat [data-cid^='5843058-'] .un:before { /*supporter badge next to name in chat*/
