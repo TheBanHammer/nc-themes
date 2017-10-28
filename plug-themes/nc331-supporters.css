@@ -98,7 +98,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****MINYMIND GOLD SUPPORTER*****/
 #chat [data-cid^='6355338-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/KyKJGXI.png"); 
-		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-6355338 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/KyKJGXI.png");	
@@ -129,7 +129,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /*****WINDWALK SILVER SUPPORTER*****/
 #chat [data-cid^='4881577-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
-		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-4881577 .meta:before { /*user rollover supporter image*/
     		content: url("https://i.imgur.com/fRFJ9D1.png");	
