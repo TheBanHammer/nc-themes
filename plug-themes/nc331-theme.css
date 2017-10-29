@@ -2094,6 +2094,12 @@
         color: #3099ff !important;
 }
 
+/* Vyolex */
+[data-cid^="3629571"].cm .msg .from .un, #user-lists .list.room .role-manager.id-3629571 .name 
+{
+        color: #a828ff !important;
+}
+
 /* Non - Staff */
 
 /*******************/
