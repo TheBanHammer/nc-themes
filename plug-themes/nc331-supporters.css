@@ -19,6 +19,10 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='5843058-'] .un, /*Nai-Chan*/
 #chat [data-cid^='6355338-'] .un, /*Minymind*/
 #chat [data-cid^='15006213-'] .un,  /*Tofu*/
+#chat [data-cid^='29080967-'] .un,  /*Unsounded*/
+#chat [data-cid^='5443249-'] .un,  /*Chansu*/
+#chat [data-cid^='4846432-'] .un,  /*Stan*/
+#chat [data-cid^='13446247-'] .un,  /*Animedev*/
 #chat [data-cid^='6361546-'] .un  /*Javi*/
 {
     top: -2px !important;
@@ -32,6 +36,10 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='5843058-'] .rcs-user-info,
 #chat [data-cid^='15006213-'] .rcs-user-info,
 #chat [data-cid^='6361546-'] .rcs-user-info,
+#chat [data-cid^='29080967-'] .rcs-user-info,
+#chat [data-cid^='55443249-'] .rcs-user-info,
+#chat [data-cid^='4846432-'] .rcs-user-info,
+#chat [data-cid^='13446247-'] .rcs-user-info,
 #chat [data-cid^='6355338-'] .rcs-user-info {
 
     position: relative !important;
