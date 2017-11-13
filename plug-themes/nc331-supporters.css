@@ -142,6 +142,21 @@ https://i.imgur.com/WgchsDz.png BRONZE
 /* If user also has a RCS badge */
 
 
+/*****CHANSU GOLD SUPPORTER*****/
+#chat [data-cid^='5443249-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/KyKJGXI.png"); 
+		top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5443249 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/KyKJGXI.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5443249 .meta:after { /*user rollover supporter info*/
+    		content: 'Gold Supporter';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+
 /*****WINDWALK SILVER SUPPORTER*****/
 #chat [data-cid^='4881577-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/fRFJ9D1.png"); 
