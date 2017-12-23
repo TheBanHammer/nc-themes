@@ -279,3 +279,34 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #user-rollover.id-4846432 .meta:after { /*user rollover supporter info*/
     		content: 'Silver Supporter';
     		color: #808691; position: absolute; top: 118px; left: 130px;
+
+
+
+
+
+//* APPLE PI WINNER OF 2017 CHRISTMAS EVENT*//
+#chat [data-cid^='3906867-'] .un
+{
+    top: -2px !important;
+    position: relative;
+}
+#chat [data-cid^='3906867-'] .rcs-user-info {
+
+    position: relative !important;
+    top: -2px !important;
+}
+#chat [data-cid^='3906867-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/sTWraMt.png"); 
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-3906867 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/sTWraMt.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-3906867 .meta:after { /*user rollover supporter info*/
+    		content: 'Christmas 2017 Event Winner';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+#user-rollover.id-3906867 .meta{
+		height: 170px !important;
+}
