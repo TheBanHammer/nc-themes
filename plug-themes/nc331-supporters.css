@@ -23,7 +23,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='5443249-'] .un,  /*Chansu*/
 #chat [data-cid^='4846432-'] .un,  /*Stan*/
 #chat [data-cid^='13446247-'] .un,  /*Animedev*/
-#chat [data-cid^='6361546-'] .un  /*Javi*/
+#chat [data-cid^='6361546-'] .un,  /*Javi*/
+#chat [data-cid^='3906867-'] .un  /*ApplePi*/
 {
     top: -2px !important;
     position: relative;
@@ -40,8 +41,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='55443249-'] .rcs-user-info,
 #chat [data-cid^='4846432-'] .rcs-user-info,
 #chat [data-cid^='13446247-'] .rcs-user-info,
+#chat [data-cid^='3906867-'] .rcs-user-info,
 #chat [data-cid^='6355338-'] .rcs-user-info {
-
     position: relative !important;
     top: -2px !important;
 }
@@ -281,20 +282,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
     		color: #808691; position: absolute; top: 118px; left: 130px;
 
 
-
-
-
 //* APPLE PI WINNER OF 2017 CHRISTMAS EVENT*//
-#chat [data-cid^='3906867-'] .un
-{
-    top: -2px !important;
-    position: relative;
-}
-#chat [data-cid^='3906867-'] .rcs-user-info {
-
-    position: relative !important;
-    top: -2px !important;
-}
 #chat [data-cid^='3906867-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/sTWraMt.png"); 
 		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
