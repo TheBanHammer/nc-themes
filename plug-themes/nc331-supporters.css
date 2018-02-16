@@ -318,11 +318,11 @@ https://i.imgur.com/WgchsDz.png BRONZE
 
 /* STAN WINNER OF 2018 VALENTINES DAY EVENT*/
 #chat [data-cid^='4846432-'] .un:before { /*supporter badge next to name in chat*/
-		content: url("https://i.imgur.com/inqYzsu.png"); 
+		content: url("https://i.imgur.com/SposfXx.png"); 
 		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-4846432 .meta:before { /*user rollover supporter image*/
-    		content: url("https://i.imgur.com/inqYzsu.png");	
+    		content: url("https://i.imgur.com/SposfXx.png");	
 		top: 120px;	left: 109px; position: absolute;
 }
 #user-rollover.id-4846432 .meta:after { /*user rollover supporter info*/
