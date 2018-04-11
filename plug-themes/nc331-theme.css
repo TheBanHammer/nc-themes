@@ -2094,12 +2094,6 @@
         color: #3099ff !important;
 }
 
-/* Vyolex */
-[data-cid^="3629571"].cm .msg .from .un, #user-lists .list.room .role-manager.id-3629571 .name 
-{
-        color: #a828ff !important;
-}
-
 /* Non - Staff */
 
 /*******************/
@@ -2304,6 +2298,17 @@
     color: #FFBA15 !important;
 }
 .id-3675567 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-3675567 .icon-chat-dj
+{
+    background: url("https://i.imgur.com/aBaTvdv.png") !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Vyolex 3629571 */
+.cm.role-dj.id-3629571 .msg .from .un, #user-lists .list .role-dj.id-3629571 .name 
+{
+    color: #FFBA15 !important;
+}
+.id-3629571 .msg .from .icon-chat-dj, #user-lists .list.room .user.id-3629571 .icon-chat-dj
 {
     background: url("https://i.imgur.com/aBaTvdv.png") !important;
     background-repeat: no-repeat !important;
