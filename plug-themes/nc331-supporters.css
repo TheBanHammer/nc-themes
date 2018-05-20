@@ -24,7 +24,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='4846432-'] .un,  /*Stan*/
 #chat [data-cid^='13446247-'] .un,  /*Animedev*/
 #chat [data-cid^='6361546-'] .un,  /*Javi*/
-#chat [data-cid^='3906867-'] .un  /*ApplePi*/
+#chat [data-cid^='3906867-'] .un,  /*ApplePi*/
+#chat [data-cid^='5025604-'] .un  /*DJYOZORA*/
 {
     top: -2px !important;
     position: relative;
@@ -42,6 +43,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='4846432-'] .rcs-user-info,
 #chat [data-cid^='13446247-'] .rcs-user-info,
 #chat [data-cid^='3906867-'] .rcs-user-info,
+#chat [data-cid^='5025604-'] .rcs-user-info,
 #chat [data-cid^='6355338-'] .rcs-user-info {
     position: relative !important;
     top: -2px !important;
@@ -280,6 +282,20 @@ https://i.imgur.com/WgchsDz.png BRONZE
 }
 #user-rollover.id-4846432 .meta:after { /*user rollover supporter info*/
     		content: 'Silver Supporter';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+
+/*****DJ YOZORA BRONZE SUPPORTER*****/
+#chat [data-cid^='5025604-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/WgchsDz.png"); 
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5025604 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/WgchsDz.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5025604 .meta:after { /*user rollover supporter info*/
+    		content: 'Bronze Supporter';
     		color: #808691; position: absolute; top: 118px; left: 130px;
 }
 	
