@@ -2392,3 +2392,8 @@
 .left .info .role .icon.icon-chat-admin + span {
     color: blue;
 }
+
+/* BADGE FIX */
+#chat .badge-box i, .right-side-wrapper #chat .badge-box .icon-arrow-down {
+    transform: scale(1);
+}
