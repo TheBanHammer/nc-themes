@@ -25,7 +25,8 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='13446247-'] .un,  /*Animedev*/
 #chat [data-cid^='6361546-'] .un,  /*Javi*/
 #chat [data-cid^='3906867-'] .un,  /*ApplePi*/
-#chat [data-cid^='5025604-'] .un  /*DJYOZORA*/
+#chat [data-cid^='5025604-'] .un, /*DJYOZORA*/
+#chat [data-cid^='5039941-'] .un  /*Bacteria*/
 {
     top: -2px !important;
     position: relative;
@@ -44,6 +45,7 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #chat [data-cid^='13446247-'] .rcs-user-info,
 #chat [data-cid^='3906867-'] .rcs-user-info,
 #chat [data-cid^='5025604-'] .rcs-user-info,
+#chat [data-cid^='5039941-'] .rcs-user-info,
 #chat [data-cid^='6355338-'] .rcs-user-info {
     position: relative !important;
     top: -2px !important;
@@ -298,7 +300,31 @@ https://i.imgur.com/WgchsDz.png BRONZE
     		content: 'Bronze Supporter';
     		color: #808691; position: absolute; top: 118px; left: 130px;
 }
-	
+
+/*****Bactéria BRONZE SUPPORTER 5039941*****/
+#chat [data-cid^='5039941-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/WgchsDz.png"); 
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5039941 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/WgchsDz.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5039941 .meta:after { /*user rollover supporter info*/
+    		content: 'Bronze Supporter';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+/* If user also has a RCS badge */
+#user-rollover.id-5039941 .meta{
+		height: 170px !important;
+}
+#user-rollover.id-5039941 .meta #isSpecial{
+    		top: 145px !important;
+}
+#user-rollover.id-5039941 .meta #isSpecialtxt {
+   	 	top: 143px !important;
+}
+
 /* APPLE PI WINNER OF 2017 CHRISTMAS EVENT*/
 #chat [data-cid^='3906867-'] .un:before { /*supporter badge next to name in chat*/
 		content: url("https://i.imgur.com/sTWraMt.png"); 
@@ -348,3 +374,4 @@ https://i.imgur.com/WgchsDz.png BRONZE
 #user-rollover.id-4846432 .meta{
 		height: 170px !important;
 }
+
