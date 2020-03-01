@@ -2088,9 +2088,20 @@
 }
 
 /* PixelBreeze */
-[data-cid^="196490"].cm .msg .from .un, #user-lists .list.room .role-manager.id-196490 .name 
+[data-cid^="196490"].cm .msg .from .un, #user-lists .list.room .role-host.id-196490 .name 
 {
         color: #3099ff !important;
+}
+
+/* Ruby */
+[data-cid^="7912511"].cm .msg .from .un, #user-lists .list.room .role-manager.id-196490 .name 
+{
+        color: #3FF99e6 !important;
+}
+/* waleri */
+[data-cid^="5729179"].cm .msg .from .un, #user-lists .list.room .role-manager.id-196490 .name 
+{
+        color: #31e9ee !important;
 }
 
 /* Non - Staff */
